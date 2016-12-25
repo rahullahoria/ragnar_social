@@ -6,7 +6,7 @@
  * Time: 3:16 PM
  */
 
-function getToApprovedPost($orgId, $userId, $type){
+function getPostsByStatus($orgId, $userId, $type){
 
     $sql = "SELECT * FROM posts WHERE company_id=:c_id and user_id =:user_id and status = :status ";
 
