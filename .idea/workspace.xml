@@ -58,11 +58,11 @@
       <file leaf-file-name="PostCreateRequest.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/posts/PostCreateRequest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20612814">
-              <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+            <state vertical-scroll-proportion="0.8746518">
+              <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
-                <marker date="1482680507200" expanded="true" signature="539:681" placeholder="INSERT INTO `post_requests`... " />
+                <marker date="1482680714640" expanded="true" signature="539:681" placeholder="INSERT INTO `post_requests`... " />
               </folding>
             </state>
           </provider>
@@ -516,7 +516,13 @@
       <option name="project" value="LOCAL" />
       <updated>1482679935234</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="added resouces">
+      <created>1482680512421</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1482680512421</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -856,11 +862,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/posts/PostCreateRequest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20612814">
-          <caret line="23" column="27" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        <state vertical-scroll-proportion="0.8746518">
+          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
           <folding>
             <element signature="e#6#94#0#PHP" expanded="true" />
-            <marker date="1482680507200" expanded="true" signature="539:681" placeholder="INSERT INTO `post_requests`... " />
+            <marker date="1482680714640" expanded="true" signature="539:681" placeholder="INSERT INTO `post_requests`... " />
           </folding>
         </state>
       </provider>

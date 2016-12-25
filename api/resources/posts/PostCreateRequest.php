@@ -34,15 +34,17 @@ function postCreateRequest($orgId, $userId){
         $stmt->bindParam("creation", date('Y-m-d H:i:s'));
 
         $stmt->execute();
-        $posts = $stmt->fetchAll(PDO::FETCH_OBJ);
+
+        $post->id = $db->lastInsertId();
+
 
         $db = null;
 
-        echo '{"posts": ' . json_encode($posts) . '}';
+        echo '{"posts": ' . json_encode($post) . '}';
 
     } catch (PDOException $e) {
         //error_log($e->getMessage(), 3, '/var/tmp/php.log');
-        echo '{"error":{"text":' . $e->getMessage() . '}}';
+        echo '{"error":{"text":"' . $e->getMessage() . '"}}';
     }
 
 
