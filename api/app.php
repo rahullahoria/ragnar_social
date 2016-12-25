@@ -23,6 +23,7 @@ $app->get('/files/:username/:fileId','getFile');
 $app->post('/files/:username', 'saveFile');*/
 
 $app->get('/org/:orgId/user/:userId/posts','getPosts');
+$app->post('/org/:orgId/user/:userId/posts','postCreateRequest');
 $app->post('/org/:orgId/user/:userId/post/:postId','updatePostStatus');
 $app->get('/org/:orgId/user/:userId/pages','getPages');
 /* Ending Routes */

@@ -14,6 +14,8 @@ require_once "resources/posts/getPosts.php";
 require_once "resources/posts/getPostsByStatus.php";
 require_once "resources/posts/updatePostStatus.php";
 
+require_once "resources/posts/PostCreateRequest.php";
+
 
 //app
 require_once "app.php";
