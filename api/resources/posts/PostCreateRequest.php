@@ -21,7 +21,7 @@ function postCreateRequest($orgId, $userId){
     }
 
     $sql = "INSERT INTO `post_requests`(`user_id`, `title`, `message`, `status`, `created`)
-            VALUES (:userId,:title,:message,'open',:creation)";
+            VALUES (:user_id,:title,:message,'open',:creation)";
 
     try {
         $db = getDB();
