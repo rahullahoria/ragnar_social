@@ -35,7 +35,7 @@ function updatePostStatus($orgId, $userId, $postId){
     if(!isset($post->scheduled)){
         $post->scheduled = null;
     }else
-        $post->scheduled = strtotime($post->scheduled);
+        $post->scheduled = date('Y-m-d H:i:s',strtotime($post->scheduled));
     try {
         $db = getDB();
         $stmt = $db->prepare($sql);
