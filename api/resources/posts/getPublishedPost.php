@@ -8,8 +8,7 @@
 
 function getPublishedPost($orgId, $userId){
 
-    $sql = "SELECT a.`id`, a.`social_network_id`, a.`impressions`, a.`likes`, a.`shares`, a.`publish_id`,
-    a.`publish_datatime`
+    $sql = "SELECT a.`id`, a.`company_id`, a.`user_id`, a.`title`, a.`description`, a.`link`, a.`raw_img_id`, a.`gen_img_id`, a.`status`, a.`text_message`, a.`scheduled`
           FROM posts as a INNER JOIN post_tracks as b WHERE a.id = b.post_id and a.company_id=:c_id and a.user_id =:user_id
              ";
 
