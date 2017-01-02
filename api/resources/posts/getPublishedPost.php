@@ -19,7 +19,6 @@ function getPublishedPost($orgId, $userId){
 
         $stmt->bindParam("c_id", $orgId);
         $stmt->bindParam("user_id", $userId);
-        $stmt->bindParam("status", $type);
 
         $stmt->execute();
         $posts = $stmt->fetchAll(PDO::FETCH_OBJ);
