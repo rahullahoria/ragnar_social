@@ -21,6 +21,9 @@ require_once "resources/posts/PostCreateRequest.php";
 
 require_once "resources/access/insertWebPageAccessDetails.php";
 
+require_once "resources/domains/get.php";
+require_once "resources/domains/insert.php";
+
 
 //app
 require_once "app.php";

@@ -28,6 +28,9 @@ $app->post('/org/:orgId/user/:userId/post/:postId','updatePostStatus');
 $app->get('/org/:orgId/user/:userId/pages','getPages');
 
 $app->post('/access','insertWebPageAccessDetails');
+
+$app->get('/domains','get');
+$app->post('/domains','insert');
 /* Ending Routes */
 
 $app->run();
