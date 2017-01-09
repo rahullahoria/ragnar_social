@@ -21,6 +21,7 @@ function insertWebPageAccessDetails(){
     $sqlInsertUrl = "INSERT INTO `urls`( `url`, `title`)
                       VALUES
                         (:url,:title);";
+    $sqlUpdateAccess = "UPDATE `urls` SET `accesses`= accesses+1 WHERE `id` = :id";
 
 
     $sqlAccess = "INSERT INTO
@@ -52,11 +53,14 @@ function insertWebPageAccessDetails(){
             $urlId = $db->lastInsertId();
         }
         else {
-            //update access count
+
             $urlId = $urls[0]->id;
         }
 
 
+        $stmt = $db->prepare($sqlUpdateAccess);
+        $stmt->bindParam("id", $urlId);
+        $stmt->execute();
 
         $stmt = $db->prepare($sqlAccess);
 
