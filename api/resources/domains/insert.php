@@ -34,7 +34,7 @@ function insert(){
         $stmt->execute();
         $domains = $stmt->fetchAll(PDO::FETCH_OBJ);
 
-        if(count($domain) == 0) {
+        if(count($domains) == 0) {
             $stmt = $db->prepare($sql);
             //$service_provider->status = "new";
 
