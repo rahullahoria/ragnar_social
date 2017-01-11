@@ -33,11 +33,11 @@ function sendMail($to, $subject, $message){
 
 $inputs = explode('-',$_GET['p']);
 $url = "http://api.ragnar.shatkonlabs.com/org/".$inputs[0]."/user/".$inputs[1]."/post/".$inputs[2]."?source=".$inputs[3];
-$post = json_decode(httpGet($url))->posts;
-
+$post = json_decode(httpGet($url))->posts[0];
+//var_dump($post);die();
 $title = $post->title;
 $description = $post->description;
-$rawImg = $post->raw_img;
+$rawImg = $post->raw_img_id;
 $logo = $post->logo_id;
 
 if($_POST['lead']){
@@ -77,22 +77,23 @@ if($_POST['lead']){
             background-image: url(http://api.file-dog.shatkonlabs.com/files/rahul/<?= $rawImg ?>);
             background-size:cover;background-repeat: no-repeat;
             background-position: top;'>
-<div class="container">
-<div class="row">
-    <div class="col-md-60">
+<div >
+<div style="width: 100%;margin-top: 30px">
+
+    <div  style="margin-left:40px;width:500px;text-align: center;float: left;">
         <img  src='http://api.file-dog.shatkonlabs.com/files/rahul/<?= $logo ?>' height='100px' width='100px' style='text-align: center'/>
         <h1 style=" color: white;
             font: bold 24px/45px Helvetica, Sans-Serif;
             letter-spacing: -1px;
             background: rgb(0, 0, 0); /* fallback color */
             background: rgba(0, 0, 0, 0.7);
-            padding: 5px;"><?= $description ?></h1>
+            ;"><?= $description ?></h1>
 
     </div>
-    <div class="col-md-60">
-        <div id="container_demo" >
+    <div style="width:500px;float: right;text-align: center;" >
+        <div id="container_demo"  >
 
-            <div id="wrapper">
+            <div id="wrapper" >
                 <div id="login" class="animate form ">
                     <form  action="#" method="post" autocomplete="on">
                         <h1>Let get <?= $title ?></h1>
@@ -113,8 +114,8 @@ if($_POST['lead']){
                         </p>
                         <p class="change_link">
                             Our Web
-                            <a href="#toregister" class="to_register">Blueteam.in</a><br><br>
-                            Powered by: <a href="http://ragnarsocial.com">Ragnar Social</a>
+                            <a href="http://<?= $post->link ?>" class="to_register"><?= $post->link ?></a><br>
+                            Powered by: <a href="http://ragnarsocial.com">www.RagnarSocial.com</a>
                         </p>
 
                     </form>
