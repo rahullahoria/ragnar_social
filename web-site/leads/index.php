@@ -50,10 +50,13 @@ if($_POST['lead']){
                 "Mobile: ". $_POST['mobile'] . "<br>".
                 "for: ". $post->title . "<br>".
                 "Happy to Server you.<br><br>
+                with Regards <br>
                 Ragnar Social Team <br>
                 <a href='http://ragnarsocial.com'>RagnarSocial.com</a>";
     foreach($toArray as $to)
         sendMail($to, $subject, $message);
+
+    header('Location: http://'.$post->link);
 
 }
 ?>
