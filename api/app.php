@@ -25,6 +25,7 @@ $app->post('/files/:username', 'saveFile');*/
 $app->get('/org/:orgId/user/:userId/posts','getPosts');
 $app->post('/org/:orgId/user/:userId/posts','postCreateRequest');
 $app->post('/org/:orgId/user/:userId/post/:postId','updatePostStatus');
+$app->get('/org/:orgId/user/:userId/post/:postId','getPost');
 $app->get('/org/:orgId/user/:userId/pages','getPages');
 
 $app->post('/access','insertWebPageAccessDetails');

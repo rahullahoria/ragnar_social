@@ -13,6 +13,7 @@ require_once "resources/pages/getPages.php";
 
 //posts resource
 require_once "resources/posts/getPosts.php";
+require_once "resources/posts/getPost.php";
 require_once "resources/posts/getPostsByStatus.php";
 require_once "resources/posts/updatePostStatus.php";
 require_once "resources/posts/getPublishedPost.php";
