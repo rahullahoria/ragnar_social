@@ -110,13 +110,45 @@ if($_POST['lead']){
 </head>
 <body style='overflow-x: hidden ! important;
             background-image: url(http://api.file-dog.shatkonlabs.com/files/rahul/<?= $rawImg ?>);
-            background-size:cover;background-repeat: no-repeat;
-            background-position: top;'>
-<div >
-<div style="width: 100%;margin-top: 30px">
+            background-repeat: no-repeat;background-position: top;'>
 
-    <div  style="margin-left:40px;width:500px;text-align: center;float: left;">
-        <img  src='http://api.file-dog.shatkonlabs.com/files/rahul/<?= $logo ?>'  style='max-height:80px;text-align: center'/>
+    <div class="form1" >
+        <div id="container_demo"  >
+
+            <div id="wrapper" >
+                <div id="login" class="animate form ">
+                    <form  action="#" method="post" autocomplete="on">
+                        <h1>Need More Info</h1>
+                        <p>
+                            <label for="username" class="uname" >Name</label>
+                            <input id="username" name="username" required="required" type="text" placeholder="Eg. Rahul Lahoria"/>
+                        </p>
+                        <p>
+                            <label for="email" class="uname" >email</label>
+                            <input id="email" name="email" required="required" type="email" placeholder="Eg. mymail@mail.com"/>
+                        </p>
+                        <p>
+                            <label for="mobile" class="uname" >Mobile</label>
+                            <input id="mobile" name="mobile" required="required" type="text" placeholder="Eg. 9599075955"/>
+                        </p>
+                        <p class="login button">
+                            <input type="submit" name="lead" value="Get In Touch" />
+                        </p>
+                        <p class="change_link">
+
+                            Powered by: <a href="http://ragnarsocial.com">www.RagnarSocial.com</a>
+                        </p>
+
+                    </form>
+                </div>
+
+
+
+            </div>
+        </div>
+    </div>
+    <div  class="text" >
+        <img  src='http://api.file-dog.shatkonlabs.com/files/rahul/<?= $logo ?>'  style='max-height:80px;text-align: center;margin-bottom: 15px;'/>
         <h1 style=" color: white;
             font: bold 20px/30px Helvetica, Sans-Serif;
             letter-spacing: -1px;
@@ -160,43 +192,6 @@ if($_POST['lead']){
                <span style="margin-left: 10px;"> <?= $post->email ?></span><br>
                 <span style="margin-left: 10px;"><?= $post->mobile ?></span>
         </h2>
-    </div>
-    <div style="width:500px;float: right;text-align: center;" >
-        <div id="container_demo"  >
-
-            <div id="wrapper" >
-                <div id="login" class="animate form ">
-                    <form  action="#" method="post" autocomplete="on">
-                        <h1>Need More Info</h1>
-                        <p>
-                            <label for="username" class="uname" >Name</label>
-                            <input id="username" name="username" required="required" type="text" placeholder="Eg. Rahul Lahoria"/>
-                        </p>
-                        <p>
-                            <label for="email" class="uname" >email</label>
-                            <input id="email" name="email" required="required" type="email" placeholder="Eg. mymail@mail.com"/>
-                        </p>
-                        <p>
-                            <label for="mobile" class="uname" >Mobile</label>
-                            <input id="mobile" name="mobile" required="required" type="text" placeholder="Eg. 9599075955"/>
-                        </p>
-                        <p class="login button">
-                            <input type="submit" name="lead" value="Get In Touch" />
-                        </p>
-                        <p class="change_link">
-
-                            Powered by: <a href="http://ragnarsocial.com">www.RagnarSocial.com</a>
-                        </p>
-
-                    </form>
-                </div>
-
-
-
-            </div>
-        </div>
-    </div>
-</div>
-</div>
+    </div>    
 </body>
 </html>

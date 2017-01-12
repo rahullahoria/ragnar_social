@@ -46,7 +46,7 @@ footer, header, hgroup, menu, nav, section {
 /* General Demo Style */
 body{
     font-family: Cambria, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
-
+    background-size:100% 100% !important;
     font-weight: 400;
     font-size: 15px;
     color: #1d3c41;
@@ -174,7 +174,6 @@ a.hiddenanchor{
 #wrapper{
     width: 60%;
     right: 0px;
-    min-height: 560px;
     margin: 0px auto;
     width: 500px;
     position: relative;
@@ -4467,4 +4466,92 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     -ms-animation-name: scaleIn;
     -o-animation-name: scaleIn;
     animation-name: scaleIn;
+}
+.text{
+    margin-left:40px;width:500px;text-align: center;float: left;margin-top: 30px;
+}
+.form1{
+    width:500px;float: right;text-align: center;margin-top: 30px;
+}
+@media(max-width: 768px){
+  body{
+    background-size:100% 150% !important;
+  }
+  #wrapper {
+    margin: 0 auto;
+    position: relative;
+    width: 500px;
+  }
+  #wrapper h1 {
+    color: rgb(6, 106, 117);
+    font-family: "FranchiseRegular","Arial Narrow",Arial,sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2px 0 10px;
+    text-align: center;
+  }
+  #wrapper p.button input {
+    background: rgb(61, 157, 179) none repeat scroll 0 0;
+    border: 1px solid rgb(28, 108, 122);
+    border-radius: 3px;
+    box-shadow: 0 1px 6px 4px rgba(0, 0, 0, 0.07) inset, 0 0 0 3px rgb(254, 254, 254), 0 5px 3px 3px rgb(210, 210, 210);
+    color: #fff;
+    cursor: pointer;
+    font-family: "BebasNeueRegular","Arial Narrow",Arial,sans-serif;
+    font-size: 12px;
+    margin-bottom: 5px;
+    padding: 3px 0;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    transition: all 0.2s linear 0s;
+    width: 40%;
+ }
+ #wrapper input:not([type="checkbox"]) {
+    border: 1px solid rgb(178, 178, 178);
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(168, 168, 168, 0.6) inset;
+    box-sizing: content-box;
+    margin-top: 4px;
+    padding: 5px;
+    transition: all 0.2s linear 0s;
+    width: 96%;
+ }
+ #register, #login {
+    background: rgb(247, 247, 247) none repeat scroll 0 0;
+    border: 1px solid rgba(147, 184, 189, 0.8);
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(105, 108, 109, 0.7), 0 0 8px 5px rgba(208, 223, 226, 0.4) inset;
+    padding: 10px;
+    position: absolute;
+    top: 0;
+    width: 300px;
+ }
+ #wrapper p {
+    margin-bottom: 10px;
+ }
+ p.change_link {
+    background: rgba(0, 0, 0, 0) repeating-linear-gradient(-45deg, rgb(247, 247, 247), rgb(247, 247, 247) 15px, rgb(225, 234, 235) 15px, rgb(225, 234, 235) 30px, rgb(247, 247, 247) 30px) repeat scroll 0 0;
+    border-radius: 0 0 5px 5px;
+    border-top: 1px solid rgb(219, 229, 232);
+    color: rgb(127, 124, 124);
+    font-size: 15px;
+    height: 25px;
+    left: 0;
+    padding: 10px 10px 30px 10px;
+    position: absolute;
+    text-align: right;
+ }
+ .text{
+    width:90%;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+ }
+ .form1{
+    width:90%;
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+    margin-top: 20px;
+    height: 55%;
+ }
 }
