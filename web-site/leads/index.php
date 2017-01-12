@@ -114,7 +114,6 @@ if($_POST['lead']){
 
     <div class="form1" >
         <div id="container_demo"  >
-
             <div id="wrapper" >
                 <div id="login" class="animate form ">
                     <form  action="#" method="post" autocomplete="on">
@@ -141,9 +140,6 @@ if($_POST['lead']){
 
                     </form>
                 </div>
-
-
-
             </div>
         </div>
     </div>
