@@ -68,7 +68,39 @@ if($_POST['lead']){
 <!--[if IE 9 ]>    <html lang="en" class="no-js ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en" class="no-js"> <!--<![endif]-->
 <head>
+    <title><?= $post->title ?>, <?= $post->company_name ?></title>
     <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index, follow">
+    <!-- for Google -->
+    <meta name="description" content="<?=$post->description; ?>" />
+    <meta name="keywords" content="<?=$metaDescription; ?>" />
+    <meta name="author" content="<?= $post->company_name ?>" />
+    <meta name="copyright" content="true" />
+    <meta name="application-name" content="website" />
+
+    <!-- for Facebook -->
+    <meta property="og:title" content="<?=$post->title; ?>" />
+    <meta name="og:author" content="<?= $post->company_name ?>" />
+    <meta property="og:type" content="website"/>
+
+    <meta name="p:domain_verify" content=""/>
+    <meta property="og:image" content='http://api.file-dog.shatkonlabs.com/files/rahul/<?= $post->gen_img_id ?>' />
+    <meta property="og:url" content="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
+    <meta property="og:image:type" content="image/jpeg" />
+
+    <meta property="og:description" content="<?=$post->description; ?>" />
+
+    <!-- for Twitter -->
+    <!-- <meta name="twitter:card" content="n/a" /> -->
+    <meta name="twitter:site" content="@hireblueteam">
+    <meta name="twitter:creator" content="@hireblueteam">
+    <meta name="twitter:url" content="<?php echo 'http://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI']; ?>" />
+    <meta name="twitter:title" content="<?= $post->title ?>, <?= $post->company_name ?>" />
+    <meta name="twitter:description" content="<?=$post->description; ?>" />
+    <meta name="twitter:image" content="http://api.file-dog.shatkonlabs.com/files/rahul/<?= $post->gen_img_id ?>" />
+
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">  -->
     <title>Login and Registration Form with HTML5 and CSS3</title>
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
@@ -84,32 +116,50 @@ if($_POST['lead']){
 <div style="width: 100%;margin-top: 30px">
 
     <div  style="margin-left:40px;width:500px;text-align: center;float: left;">
-        <img  src='http://api.file-dog.shatkonlabs.com/files/rahul/<?= $logo ?>' height='100px' width='100px' style='text-align: center'/>
+        <img  src='http://api.file-dog.shatkonlabs.com/files/rahul/<?= $logo ?>'  style='max-height:80px;text-align: center'/>
         <h1 style=" color: white;
-            font: bold 24px/45px Helvetica, Sans-Serif;
+            font: bold 20px/30px Helvetica, Sans-Serif;
             letter-spacing: -1px;
             background: rgb(0, 0, 0); /* fallback color */
             background: rgba(0, 0, 0, 0.7);
             ;"><?= $title ?></h1>
         <h2 style=" color: white;
-            font: bold 24px/45px Helvetica, Sans-Serif;
+            font: bold 16px/25px Helvetica, Sans-Serif;
             letter-spacing: -1px;
             background: rgb(0, 0, 0); /* fallback color */
             background: rgba(0, 0, 0, 0.7);
             ;"><?= $description ?></h2>
-        <br/><br/>
+        <br/>
         <h1 style=" color: white;
-            font: bold 24px/45px Helvetica, Sans-Serif;
+            font: bold 20px/30px Helvetica, Sans-Serif;
             letter-spacing: -1px;
             background: rgb(0, 0, 0); /* fallback color */
             background: rgba(0, 0, 0, 0.7);
             ;">About <?= ucfirst($post->company_name) ?></h1>
         <h2 style=" color: white;
-            font: bold 24px/45px Helvetica, Sans-Serif;
+            font: bold 16px/25px Helvetica, Sans-Serif;
             letter-spacing: -1px;
             background: rgb(0, 0, 0); /* fallback color */
             background: rgba(0, 0, 0, 0.7);
             ;"><?= $post->about ?></h2>
+        <br/>
+        <h1 style=" color: white;
+            font: bold 20px/30px Helvetica, Sans-Serif;
+            letter-spacing: -1px;
+            background: rgb(0, 0, 0); /* fallback color */
+            background: rgba(0, 0, 0, 0.7);
+            ;">Contact Us</h1>
+        <h2 style=" color: white;
+            font: bold 16px/25px Helvetica, Sans-Serif;
+            letter-spacing: -1px;
+            background: rgb(0, 0, 0); /* fallback color */
+            background: rgba(0, 0, 0, 0.7);
+            text-align: left;
+
+            ;"><a href="http://<?= $post->link ?>" style="color: white;margin-left: 10px;"><?= $post->link ?></a><br>
+               <span style="margin-left: 10px;"> <?= $post->email ?></span><br>
+                <span style="margin-left: 10px;"><?= $post->mobile ?></span>
+        </h2>
     </div>
     <div style="width:500px;float: right;text-align: center;" >
         <div id="container_demo"  >
@@ -134,8 +184,7 @@ if($_POST['lead']){
                             <input type="submit" name="lead" value="Get In Touch" />
                         </p>
                         <p class="change_link">
-                            Our Web
-                            <a href="http://<?= $post->link ?>" class="to_register"><?= $post->link ?></a><br>
+
                             Powered by: <a href="http://ragnarsocial.com">www.RagnarSocial.com</a>
                         </p>
 
