@@ -4475,7 +4475,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 @media(max-width: 768px){
   body{
-    background-size:100% 150% !important;
+    background-size:120% 150% !important;
   }
   #wrapper {
     margin: 0 auto;
@@ -4536,7 +4536,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     font-size: 15px;
     height: 25px;
     left: 0;
-    padding: 10px 10px 30px 10px;
+    padding: 10px;
     position: absolute;
     text-align: right;
  }
@@ -4545,6 +4545,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
     text-align: center;
     font-size: 14px;
     vertical-align: middle;
+    margin-top: 10px;
  }
  .form1{
     width:90%;
