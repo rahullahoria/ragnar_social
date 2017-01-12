@@ -90,8 +90,26 @@ if($_POST['lead']){
             letter-spacing: -1px;
             background: rgb(0, 0, 0); /* fallback color */
             background: rgba(0, 0, 0, 0.7);
-            ;"><?= $description ?></h1>
-
+            ;"><?= $title ?></h1>
+        <h2 style=" color: white;
+            font: bold 24px/45px Helvetica, Sans-Serif;
+            letter-spacing: -1px;
+            background: rgb(0, 0, 0); /* fallback color */
+            background: rgba(0, 0, 0, 0.7);
+            ;"><?= $description ?></h2>
+        <br/><br/>
+        <h1 style=" color: white;
+            font: bold 24px/45px Helvetica, Sans-Serif;
+            letter-spacing: -1px;
+            background: rgb(0, 0, 0); /* fallback color */
+            background: rgba(0, 0, 0, 0.7);
+            ;">About <?= ucfirst($post->company_name) ?></h1>
+        <h2 style=" color: white;
+            font: bold 24px/45px Helvetica, Sans-Serif;
+            letter-spacing: -1px;
+            background: rgb(0, 0, 0); /* fallback color */
+            background: rgba(0, 0, 0, 0.7);
+            ;"><?= $post->about ?></h2>
     </div>
     <div style="width:500px;float: right;text-align: center;" >
         <div id="container_demo"  >
@@ -99,7 +117,7 @@ if($_POST['lead']){
             <div id="wrapper" >
                 <div id="login" class="animate form ">
                     <form  action="#" method="post" autocomplete="on">
-                        <h1>Let get <?= $title ?></h1>
+                        <h1>Need More Info</h1>
                         <p>
                             <label for="username" class="uname" >Name</label>
                             <input id="username" name="username" required="required" type="text" placeholder="Eg. Rahul Lahoria"/>
