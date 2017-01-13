@@ -6,6 +6,6 @@
  * Time: 2:58 PM
  */
 
-function update(){
+function update($id){
 
 }
