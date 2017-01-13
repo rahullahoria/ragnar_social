@@ -38,5 +38,5 @@ while ( $domain = mysqli_fetch_array($domains)) {
     }catch(Exception $e){
 
     }
-        sleep(rand(1,5));
+        #sleep(rand(1,5));
 }
