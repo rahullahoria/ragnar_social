@@ -10,8 +10,9 @@
 
 $dbHandle = mysqli_connect("localhost","root","redhat@11111p","ragnar_social");
 
-$domains = mysqli_query($dbHandle, "SELECT a.name,a.id FROM `domains` as a INNER JOIN domain_dynamic_details as b
-                          WHERE a.`status` = 'white' and a.id = b.domain_id and DATA(b.creation) != CURDATE() ");
+$domains = mysqli_query($dbHandle, "SELECT a.name,a.id FROM `domains` as a
+                          WHERE a.`status` = 'white'
+                          and a.id not in (select domain_id from domain_dynamic_details where DATE(creation) != CURDATE()) ");
 
 while ( $domain = mysqli_fetch_array($domains)) {
     $url="http://".$domain['name']."/";
