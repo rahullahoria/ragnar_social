@@ -89,15 +89,15 @@
         <entry file="file://$PROJECT_DIR$/scripts/alexaRankingUpdate.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.51369864">
-              <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+              <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
-                <marker date="1484301234380" expanded="true" signature="349:387" placeholder="SELECT * FRO... domains" />
-                <marker date="1484301234380" expanded="true" signature="349:563" placeholder="SELECT a.nam... domains" />
-                <marker date="1484301234380" expanded="true" signature="988:1091" placeholder="INSERT INTO `domain_dynamic_details`... " />
-                <marker date="1484301234380" expanded="true" signature="988:1111" placeholder="INSERT INTO `domain_dynamic_details`... " />
-                <marker date="1484301234380" expanded="true" signature="988:1123" placeholder="INSERT INTO `domain_dynamic_details`... " />
-                <marker date="1484301234380" expanded="true" signature="988:1148" placeholder="INSERT INTO `domain_dynamic_details`... " />
+                <marker date="1484303790596" expanded="true" signature="349:387" placeholder="SELECT * FRO... domains" />
+                <marker date="1484303790596" expanded="true" signature="349:563" placeholder="SELECT a.nam... domains" />
+                <marker date="1484303790596" expanded="true" signature="1028:1131" placeholder="INSERT INTO `domain_dynamic_details`... " />
+                <marker date="1484303790596" expanded="true" signature="1028:1151" placeholder="INSERT INTO `domain_dynamic_details`... " />
+                <marker date="1484303790596" expanded="true" signature="1028:1163" placeholder="INSERT INTO `domain_dynamic_details`... " />
+                <marker date="1484303790596" expanded="true" signature="1028:1188" placeholder="INSERT INTO `domain_dynamic_details`... " />
               </folding>
             </state>
           </provider>
@@ -1485,7 +1485,13 @@
       <option name="project" value="LOCAL" />
       <updated>1484301188447</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="added resouces">
+      <created>1484301246542</created>
+      <option name="number" value="00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1484301246542</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -2826,15 +2832,15 @@
     <entry file="file://$PROJECT_DIR$/scripts/alexaRankingUpdate.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.51369864">
-          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
-            <marker date="1484301234380" expanded="true" signature="349:387" placeholder="SELECT * FRO... domains" />
-            <marker date="1484301234380" expanded="true" signature="349:563" placeholder="SELECT a.nam... domains" />
-            <marker date="1484301234380" expanded="true" signature="988:1091" placeholder="INSERT INTO `domain_dynamic_details`... " />
-            <marker date="1484301234380" expanded="true" signature="988:1111" placeholder="INSERT INTO `domain_dynamic_details`... " />
-            <marker date="1484301234380" expanded="true" signature="988:1123" placeholder="INSERT INTO `domain_dynamic_details`... " />
-            <marker date="1484301234380" expanded="true" signature="988:1148" placeholder="INSERT INTO `domain_dynamic_details`... " />
+            <marker date="1484303790596" expanded="true" signature="349:387" placeholder="SELECT * FRO... domains" />
+            <marker date="1484303790596" expanded="true" signature="349:563" placeholder="SELECT a.nam... domains" />
+            <marker date="1484303790596" expanded="true" signature="1028:1131" placeholder="INSERT INTO `domain_dynamic_details`... " />
+            <marker date="1484303790596" expanded="true" signature="1028:1151" placeholder="INSERT INTO `domain_dynamic_details`... " />
+            <marker date="1484303790596" expanded="true" signature="1028:1163" placeholder="INSERT INTO `domain_dynamic_details`... " />
+            <marker date="1484303790596" expanded="true" signature="1028:1188" placeholder="INSERT INTO `domain_dynamic_details`... " />
           </folding>
         </state>
       </provider>

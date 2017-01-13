@@ -15,9 +15,10 @@ $domains = mysqli_query($dbHandle, "SELECT a.name,a.id FROM `domains` as a
                           and a.id not in (select domain_id from domain_dynamic_details where DATE(creation) != CURDATE()) ");
 
 $i = 1;
+$count = $domains->num_rows;
 
 while ( $domain = mysqli_fetch_array($domains)) {
-    echo $i."\n";
+    echo $i."/".$count."\n";
     $i++;
     $url="http://".$domain['name']."/";
     $xml = simplexml_load_file('http://data.alexa.com/data?cli=10&dat=snbamz&url='.$url);
