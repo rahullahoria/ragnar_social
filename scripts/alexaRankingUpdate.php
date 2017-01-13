@@ -12,7 +12,9 @@ $dbHandle = mysqli_connect("localhost","root","redhat@11111p","ragnar_social");
 
 $domains = mysqli_query($dbHandle, "SELECT a.name,a.id FROM `domains` as a
                           WHERE a.`status` = 'white'
-                          and a.id not in (select domain_id from domain_dynamic_details where DATE(creation) != CURDATE()) ");
+                          and a.id not in (SELECT distinct domain_id
+FROM domain_dynamic_details
+WHERE DATE( creation ) = CURDATE( ) ");
 
 $i = 1;
 $count = $domains->num_rows;
