@@ -20,17 +20,21 @@ $i = 1;
 $count = $domains->num_rows;
 
 while ( $domain = mysqli_fetch_array($domains)) {
-    echo $i."/".$count."\n";
+    echo $i."/".$count." ".$domain['name']."\n";
     $i++;
-    $url="http://".$domain['name']."/";
-    $xml = simplexml_load_file('http://data.alexa.com/data?cli=10&dat=snbamz&url='.$url);
-    $rank=isset($xml->SD[1]->POPULARITY)?$xml->SD[1]->POPULARITY->attributes()->TEXT:0;
-    $web=(string)$xml->SD[0]->attributes()->HOST;
-    echo $web." has Alexa Rank ".$rank."\n";
+    try {
+        $url = "http://" . $domain['name'] . "/";
+        $xml = simplexml_load_file('http://data.alexa.com/data?cli=10&dat=snbamz&url=' . $url);
+        $rank = isset($xml->SD[1]->POPULARITY) ? $xml->SD[1]->POPULARITY->attributes()->TEXT : 0;
+        $web = (string)$xml->SD[0]->attributes()->HOST;
+        echo $web . " has Alexa Rank " . $rank . "\n";
 
-    $insertSql = "INSERT INTO `domain_dynamic_details`( `domain_id`, `alexa_ranking`, `creation`)
-              VALUES ('".$domain['id']."','".$rank."','".date("Y-m-d H:i:s")."')";
+        $insertSql = "INSERT INTO `domain_dynamic_details`( `domain_id`, `alexa_ranking`, `creation`)
+              VALUES ('" . $domain['id'] . "','" . $rank . "','" . date("Y-m-d H:i:s") . "')";
 
-    mysqli_query($dbHandle, $insertSql);
-    sleep(rand(1,5));
+        mysqli_query($dbHandle, $insertSql);
+    }catch(Exception $e){
+
+    }
+        sleep(rand(1,5));
 }
