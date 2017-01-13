@@ -25,4 +25,5 @@ while ( $domain = mysqli_fetch_array($domains)) {
               VALUES ('".$domain['id']."','".$rank."','".date("Y-m-d H:i:s")."')";
 
     mysqli_query($dbHandle, $insertSql);
+    sleep(rand(1,5));
 }
