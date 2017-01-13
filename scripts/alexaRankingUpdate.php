@@ -27,7 +27,7 @@ while ( $domain = mysqli_fetch_array($domains)) {
         $xml = simplexml_load_file('http://data.alexa.com/data?cli=10&dat=snbamz&url=' . $url);
 
             $rank = isset($xml->SD[1]->POPULARITY) ? $xml->SD[1]->POPULARITY->attributes()->TEXT : 0;
-        if(isset($xml->SD[0]->attributes()->HOST))
+        if(isset($xml->SD[0]->attributes))
             $web = (string)$xml->SD[0]->attributes()->HOST;
         else
             $web = $domain['name'];
