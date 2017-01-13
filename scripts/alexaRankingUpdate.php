@@ -25,8 +25,10 @@ while ( $domain = mysqli_fetch_array($domains)) {
     try {
         $url = "http://" . $domain['name'] . "/";
         $xml = simplexml_load_file('http://data.alexa.com/data?cli=10&dat=snbamz&url=' . $url);
-        $rank = isset($xml->SD[1]->POPULARITY) ? $xml->SD[1]->POPULARITY->attributes()->TEXT : 0;
-        $web = (string)$xml->SD[0]->attributes()->HOST;
+
+            $rank = isset($xml->SD[1]->POPULARITY) ? $xml->SD[1]->POPULARITY->attributes()->TEXT : 0;
+        if((string)$xml->SD[0]->attributes()->HOST)
+            $web = (string)$xml->SD[0]->attributes()->HOST;
         echo $web . " has Alexa Rank " . $rank . "\n";
 
         $insertSql = "INSERT INTO `domain_dynamic_details`( `domain_id`, `alexa_ranking`, `creation`)
