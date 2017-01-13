@@ -14,7 +14,11 @@ $domains = mysqli_query($dbHandle, "SELECT a.name,a.id FROM `domains` as a
                           WHERE a.`status` = 'white'
                           and a.id not in (select domain_id from domain_dynamic_details where DATE(creation) != CURDATE()) ");
 
+$i = 1;
+
 while ( $domain = mysqli_fetch_array($domains)) {
+    echo $i."\n";
+    $i++;
     $url="http://".$domain['name']."/";
     $xml = simplexml_load_file('http://data.alexa.com/data?cli=10&dat=snbamz&url='.$url);
     $rank=isset($xml->SD[1]->POPULARITY)?$xml->SD[1]->POPULARITY->attributes()->TEXT:0;
