@@ -21,4 +21,6 @@ while ( $domain = mysqli_fetch_array($domains)) {
 
     $insertSql = "INSERT INTO `domain_dynamic_details`( `domain_id`, `alexa_ranking`, `creation`)
               VALUES ('".$domain['id']."','".$rank."','".date("Y-m-d H:i:s")."')";
+
+    mysqli_query($dbHandle, $insertSql);
 }
