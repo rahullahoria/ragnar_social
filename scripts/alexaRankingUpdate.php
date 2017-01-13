@@ -10,7 +10,7 @@
 
 $dbHandle = mysqli_connect("localhost","root","redhat@11111p","ragnar_social");
 
-$domains = mysqli_query($dbHandle, "SELECT * FROM `domains` as a INNER JOIN domain_dynamic_details as b
+$domains = mysqli_query($dbHandle, "SELECT a.name,a.id FROM `domains` as a INNER JOIN domain_dynamic_details as b
                           WHERE a.`status` = 'white' and a.id = b.domain_id and DATA(b.creation) != CURDATE() ");
 
 while ( $domain = mysqli_fetch_array($domains)) {
