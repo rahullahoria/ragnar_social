@@ -17,7 +17,7 @@ function getKeywords(){
         $length = 0;
         $keywords = extractCommonWords($str);
         foreach($keywords as $k => $v){
-            if($v > 1){
+
                 if($subString == "")
                     $length = $v;
 
@@ -28,7 +28,7 @@ function getKeywords(){
                 elseif($v == $length){
                     $subString = $subString . " ". $k;
                 }
-            }
+            if($v == 1) break;
         }
         echo '{"keywords": ' . json_encode($keywords) . '}';
 
