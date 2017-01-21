@@ -13,10 +13,22 @@ function getKeywords(){
 
 
     try {
-
+        $subString = "";
+        $length = 0;
         $keywords = extractCommonWords($str);
         foreach($keywords as $k => $v){
-            echo $k . " " .$v;
+            if($v > 1){
+                if($subString == "")
+                    $length = $v;
+
+                if($v < $length){
+                    $keywords[ltrim($subString,' ')] = substr_count(ltrim($subString,' '),$str);
+                    $subString = $k;
+                }
+                elseif($v == $length){
+                    $subString = $subString . " ". $k;
+                }
+            }
         }
         echo '{"keywords": ' . json_encode($keywords) . '}';
 
@@ -25,4 +37,6 @@ function getKeywords(){
         echo '{"error":{"text":' . $e->getMessage() . '}}';
     }
 }
+
+
 
