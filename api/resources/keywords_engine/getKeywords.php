@@ -22,7 +22,7 @@ function getKeywords(){
                     $length = $v;
 
                 if($v < $length){
-                    $keywords[ltrim($subString,' ')] = substr_count(ltrim($subString,' '),$str);
+                    $keywords[ltrim($subString,' ')] = substr_count($str,ltrim($subString,' '));
                     $subString = $k;
                 }
                 elseif($v == $length){

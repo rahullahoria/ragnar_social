@@ -38,8 +38,8 @@
       <file leaf-file-name="getKeywords.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/keywords_engine/getKeywords.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5392491">
-              <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+            <state vertical-scroll-proportion="0.38566554">
+              <caret line="24" column="94" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
               <folding>
                 <element signature="e#6#93#0#PHP" expanded="true" />
               </folding>
@@ -878,7 +878,13 @@
       <option name="project" value="LOCAL" />
       <updated>1484991876302</updated>
     </task>
-    <option name="localTasksCounter" value="44" />
+    <task id="LOCAL-00044" summary="added resouces">
+      <created>1484991985886</created>
+      <option name="number" value="00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1484991985886</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1323,8 +1329,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/keywords_engine/getKeywords.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5392491">
-          <caret line="30" column="30" selection-start-line="30" selection-start-column="30" selection-end-line="30" selection-end-column="30" />
+        <state vertical-scroll-proportion="0.38566554">
+          <caret line="24" column="94" selection-start-line="24" selection-start-column="94" selection-end-line="24" selection-end-column="94" />
           <folding>
             <element signature="e#6#93#0#PHP" expanded="true" />
           </folding>
