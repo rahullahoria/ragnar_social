@@ -9,7 +9,7 @@
 function getKeywords(){
 
     global $app;
-    $str = $app->request()->get('str');
+    $str = preg_replace('/[^A-Za-z0-9\-]/', ' ', $app->request()->get('str'));
 
 
     try {
