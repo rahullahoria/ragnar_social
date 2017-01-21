@@ -140,68 +140,9 @@ angular.module('starter.controllers')
 
 
         }
-        $scope.checkReg = function () {
-            $scope.valIP();
-            console.log("trying to check");
-            if ($scope.checked == false && $scope.user.mobile != undefined) {
-                $scope.checked = true;
-                BlueTeam.checkMobile($scope.user.mobile)
-                    .then(function (d) {
 
-                        console.log(d.status);
-                        if(d.status == false){
-                            //register.experience.$invalid = false;
-                            BlueTeam.getServiceProviderServices("").then(function (d) {
-
-
-                                $scope.serviceProviders = d.allServices;
-                                console.log(JSON.stringify($scope.serviceProviders));
-
-                            });
-
-
-
-                            /*
-                             BlueTeam.getCities().then(function (d) {
-                             console.log($scope.position.coords.latitude + ',' + $scope.position.coords.longitude);
-                             if($scope.position.coords.latitude)
-                             BlueTeam.getLocationDetails($scope.position.coords.latitude + ',' + $scope.position.coords.longitude).then(function (d) {
-                             $scope.user.city_id = d.location_details.city.id;
-                             $scope.user.area_id = d.location_details.area.id;
-                             BlueTeam.getCityAreas($scope.user.city_id).then(function (d) {
-
-                             $scope.areas = d.areas;
-
-                             console.log(JSON.stringify($scope.areas));
-
-                             });
-
-                             });
-
-                             $scope.cities = d.cities;
-                             console.log(JSON.stringify($scope.serviceProviders));
-
-                             });
-                             */
-                        }
-                        $scope.registered = d.status;
-
-                    });
-
-
-            }
-            /*else $scope.data.password = "";*/
-        };
         $scope.pwdError = false;
-        $scope.checkSamePwd = function () {
 
-            if ($scope.user.password != $scope.user.conf_password) {
-                $scope.pwdError = true;
-            }
-            $scope.pwdError = false;
-
-
-        };
 
 
 

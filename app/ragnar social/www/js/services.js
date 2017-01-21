@@ -37,6 +37,19 @@ angular.module('starter.services', [])
                 });
                 // Return the promise to the controller
                 return promise;
+            },
+            loginUser: function (data) {
+                // $http returns a promise, which has a then function, which also returns a promise
+
+                console.log(JSON.stringify(data));
+                var promise = $http.post(urlRS + '/auth', data).then(function (response) {
+                    // The then function here is an opportunity to modify the response
+                    console.log(JSON.stringify(response.data));
+                    // The return value gets picked up by the then in the controller.
+                    return response.data;
+                });
+                // Return the promise to the controller
+                return promise;
             }
         }
 
