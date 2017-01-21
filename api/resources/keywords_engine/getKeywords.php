@@ -30,7 +30,7 @@ function getKeywords(){
                 }
             if($v == 1) break;
         }
-        echo '{"keywords": ' . json_encode($keywords) . '}';
+        echo '{"keywords": ' . json_encode($keywords) . ',"string":"'.$str.'"}';
 
     } catch (Exception $e) {
         //error_log($e->getMessage(), 3, '/var/tmp/php.log');
