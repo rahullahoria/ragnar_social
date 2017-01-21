@@ -27,6 +27,8 @@ require_once "resources/domains/insert.php";
 
 require_once "resources/auth/postUserAuth.php";
 
+require_once "resources/keywords_engine/getKeywords.php";
+
 
 //app
 require_once "app.php";

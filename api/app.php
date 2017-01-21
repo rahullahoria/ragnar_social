@@ -34,6 +34,8 @@ $app->post('/auth','userAuth');
 
 $app->get('/domains','get');
 $app->post('/domains','insert');
+
+$app->get('/keywords','getKeywords');
 /* Ending Routes */
 
 $app->run();
