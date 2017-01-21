@@ -9,7 +9,7 @@
 function extractCommonWords($string){
     $stopWords = array('i','a','about','an','and','are','as','at','be','by','com','de','en','for','from','how',
         'in','is','it','la','of','on','or','that','the','this','to','was','what','when','where','who','will',
-        'with','und','the','www','does');
+        'with','und','the','www','does','upto');
 
     $string = preg_replace('/\s\s+/i', '', $string); // replace whitespace
     $string = trim($string); // trim the string
