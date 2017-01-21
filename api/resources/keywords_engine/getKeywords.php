@@ -15,6 +15,7 @@ function getKeywords(){
     try {
 
         $keywords = extractCommonWords($str);
+        echo $keywords[0];
         echo '{"keywords": ' . json_encode($keywords) . '}';
 
     } catch (Exception $e) {
