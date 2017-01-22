@@ -21,6 +21,14 @@ function getPostsByStatus($orgId, $userId, $type){
         $stmt->execute();
         $posts = $stmt->fetchAll(PDO::FETCH_OBJ);
 
+        foreach($posts as $key => $value) {
+            $value->title = htmlspecialchars($value->title);
+
+            $value->description = htmlspecialchars($value->description);
+
+
+        }
+
 
         $db = null;
 
