@@ -8,7 +8,7 @@
 
 function getPostsByStatus($orgId, $userId, $type){
 
-    $sql = "SELECT * FROM posts WHERE company_id=:c_id and gen_img_id != 0 and  user_id =:user_id and status = :status and id NOT IN (select post_id from post_tracks where 1) limit 0,10";
+    $sql = "SELECT * FROM posts WHERE company_id=:c_id and gen_img_id != 0 and  user_id =:user_id and status = :status and id NOT IN (select post_id from post_tracks where 1) limit 0,20";
 
     try {
         $db = getDB();

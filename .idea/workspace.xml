@@ -28,13 +28,13 @@
       <file leaf-file-name="getPostsByStatus.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/posts/getPostsByStatus.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5062167">
-              <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+            <state vertical-scroll-proportion="0.13321492">
+              <caret line="10" column="184" selection-start-line="10" selection-start-column="184" selection-end-line="10" selection-end-column="184" />
               <folding>
-                <marker date="1485092976704" expanded="true" signature="160:266" placeholder="SELECT * FRO... posts" />
-                <marker date="1485092976704" expanded="true" signature="160:322" placeholder="SELECT * FRO... posts" />
-                <marker date="1485092976704" expanded="true" signature="160:333" placeholder="SELECT * FRO... posts" />
-                <marker date="1485092976704" expanded="true" signature="282:321" placeholder="select post_... post_tracks" />
+                <marker date="1485093080036" expanded="true" signature="160:266" placeholder="SELECT * FRO... posts" />
+                <marker date="1485093080036" expanded="true" signature="160:322" placeholder="SELECT * FRO... posts" />
+                <marker date="1485093080036" expanded="true" signature="160:333" placeholder="SELECT * FRO... posts" />
+                <marker date="1485093080036" expanded="true" signature="282:321" placeholder="select post_... post_tracks" />
               </folding>
             </state>
           </provider>
@@ -622,12 +622,6 @@
       <option name="number" value="Default" />
       <updated>1482226460014</updated>
     </task>
-    <task id="LOCAL-00005" summary="added resouces">
-      <created>1482660438780</created>
-      <option name="number" value="00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1482660438781</updated>
-    </task>
     <task id="LOCAL-00006" summary="added resouces">
       <created>1482676531700</created>
       <option name="number" value="00006" />
@@ -916,7 +910,13 @@
       <option name="project" value="LOCAL" />
       <updated>1485092703197</updated>
     </task>
-    <option name="localTasksCounter" value="54" />
+    <task id="LOCAL-00054" summary="added resouces">
+      <created>1485092986961</created>
+      <option name="number" value="00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1485092986961</updated>
+    </task>
+    <option name="localTasksCounter" value="55" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1045,10 +1045,10 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1485092976704" expanded="true" signature="160:266" placeholder="SELECT * FRO... posts" />
-            <marker date="1485092976704" expanded="true" signature="160:322" placeholder="SELECT * FRO... posts" />
-            <marker date="1485092976704" expanded="true" signature="160:333" placeholder="SELECT * FRO... posts" />
-            <marker date="1485092976704" expanded="true" signature="282:321" placeholder="select post_... post_tracks" />
+            <marker date="1485093080036" expanded="true" signature="160:266" placeholder="SELECT * FRO... posts" />
+            <marker date="1485093080036" expanded="true" signature="160:322" placeholder="SELECT * FRO... posts" />
+            <marker date="1485093080036" expanded="true" signature="160:333" placeholder="SELECT * FRO... posts" />
+            <marker date="1485093080036" expanded="true" signature="282:321" placeholder="select post_... post_tracks" />
           </folding>
         </state>
       </provider>
@@ -1365,13 +1365,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/posts/getPostsByStatus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5062167">
-          <caret line="24" column="58" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        <state vertical-scroll-proportion="0.13321492">
+          <caret line="10" column="184" selection-start-line="10" selection-start-column="184" selection-end-line="10" selection-end-column="184" />
           <folding>
-            <marker date="1485092976704" expanded="true" signature="160:266" placeholder="SELECT * FRO... posts" />
-            <marker date="1485092976704" expanded="true" signature="160:322" placeholder="SELECT * FRO... posts" />
-            <marker date="1485092976704" expanded="true" signature="160:333" placeholder="SELECT * FRO... posts" />
-            <marker date="1485092976704" expanded="true" signature="282:321" placeholder="select post_... post_tracks" />
+            <marker date="1485093080036" expanded="true" signature="160:266" placeholder="SELECT * FRO... posts" />
+            <marker date="1485093080036" expanded="true" signature="160:322" placeholder="SELECT * FRO... posts" />
+            <marker date="1485093080036" expanded="true" signature="160:333" placeholder="SELECT * FRO... posts" />
+            <marker date="1485093080036" expanded="true" signature="282:321" placeholder="select post_... post_tracks" />
           </folding>
         </state>
       </provider>
