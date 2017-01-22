@@ -14,7 +14,7 @@ function userAuth(){
     $user = json_decode($request->getBody());
 
 
-    $sql = "SELECT a.`id`, a.`name`, a.`email`, a.`type`, a.`company_id`, a.`phone`, a.`md5_id`, a.`profession`, b.name, b.address as company_address, b.email as company_email, b.mobile as company_mobile, b.logo_id, b.about  FROM `users` as a inner join companies as b WHERE a.company_id = b.id and a.phone = :mobile and a.password = :password";
+    $sql = "SELECT a.`id`, a.`name`, a.`email`, a.`type`, a.`company_id`, a.`phone`, a.`md5_id`, a.`profession`, b.name as company_name, b.address as company_address, b.email as company_email, b.mobile as company_mobile, b.logo_id, b.about  FROM `users` as a inner join companies as b WHERE a.company_id = b.id and a.phone = :mobile and a.password = :password";
 
 
     try {

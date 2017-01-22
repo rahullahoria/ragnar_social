@@ -84,7 +84,7 @@
                     </div>
 
                 </div>
-                <div style="text-align: center;"><h3>Partner Login</h3></div>
+                <div style="text-align: center;"><h3>Login</h3></div>
                 <div class="card" ng-hide="basicRegDone">
 
                     <form ng-submit="login()" name="register" >
@@ -120,7 +120,7 @@
                                    ng-class="{ 'has-errors' : (register.password.$invalid || !v.password),
                                 'no-errors' : (!register.password.$invalid && v.password)}">
                                 <span class="input-label" >Password*</span>
-                                <input type="password" name="password" id="password" ng-keypress="checkReg()" ng-change="checkReg()"
+                                <input type="password" name="password" id="password" ng-keypress="valIP()" ng-change="valIP()"
                                        placeholder="Password" ng-model="user.password" ng-minlength="6" ng-maxlength="12" >
                             </label>
 

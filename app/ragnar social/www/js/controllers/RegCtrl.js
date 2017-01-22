@@ -5,7 +5,7 @@ angular.module('starter.controllers')
 
 
     .controller('RegCtrl', function ($scope, $state, $ionicLoading, $timeout, $ionicHistory, $cordovaGeolocation, $localstorage,
-                                     $ionicPlatform, $cordovaDevice, $ionicPopup, $window, $cordovaLocalNotification, $cordovaNetwork, $cordovaCamera, BlueTeam) {
+                                     $ionicPlatform, $cordovaDevice, $ionicPopup, $window, $cordovaLocalNotification, $cordovaNetwork, $cordovaCamera, BlueTeam,RagnarSocial) {
 
 
         console.log("regcont started");
@@ -32,7 +32,7 @@ angular.module('starter.controllers')
         $scope.user.area_id = 0;
         $scope.user.city_id = 0;
 
-        $scope.goReg = true;
+
         $scope.goLogin = false;
         $scope.valIP = function(){
 
@@ -45,27 +45,7 @@ angular.module('starter.controllers')
                 $scope.v.password = $scope.goLogin = true;
             }else
                 $scope.v.password = $scope.goLogin = false;
-            if(!$scope.registered){
 
-                if($scope.user.conf_password  != undefined && $scope.user.password == $scope.user.conf_password){
-
-                    $scope.v.conf_password =  $scope.goReg = true;
-                }else
-                    $scope.v.conf_password = $scope.goReg = false;
-                if($scope.user.name  != undefined){
-                    $scope.v.name = $scope.goReg = true;
-                }else
-                    $scope.v.name = $scope.goReg = false;
-                if($scope.user.experience  != undefined){
-                    $scope.v.experience = $scope.goReg = true;
-                }else
-                    $scope.v.experience = $scope.goReg = false;
-                if($scope.user.services  != undefined && $scope.user.services.length != 0){
-
-                    $scope.v.services = $scope.goReg = true;
-                }else
-                    $scope.v.services = $scope.goReg = false;
-            }
 
         };
 
@@ -102,10 +82,10 @@ angular.module('starter.controllers')
 
 
             $scope.show();
-            BlueTeam.loginUser({
+            RagnarSocial.loginUser({
 
                     "gps_location": $scope.position.coords.latitude + ',' + $scope.position.coords.longitude,
-                    "mobile": $scope.user.mobile,
+                    "mobile": $scope.user.mobile+"",
                     "password": $scope.user.password,
                     "device_id": $cordovaDevice.getUUID()
 
@@ -123,7 +103,6 @@ angular.module('starter.controllers')
 
                         $localstorage.set('user', JSON.stringify(d.user));
                         $localstorage.set('user_id', d.user.id);
-                        $localstorage.set('services', JSON.stringify(d.user.services));
 
                         $timeout(function () {
                             $window.location.reload(true);
@@ -484,108 +463,7 @@ angular.module('starter.controllers')
         $scope.basicRegDone = false;
         $scope.userServices = [];
 
-        $scope.regUserServices = function(){
 
-
-            BlueTeam.regUserServices($scope.user.id,$scope.userServices)
-                .then(function (d) {
-
-                    //setObject
-                    $localstorage.set('services', JSON.stringify($scope.userServices));
-                    $scope.basicRegDone = true;
-
-
-
-                    if(d.error){
-
-                        $scope.error = d.error;
-
-                    }
-
-                    $scope.hide();
-
-                    $state.go('map');
-
-                });
-        };
-
-
-        $scope.regUser = function () {
-            if ($scope.checked == false) {
-                $scope.checkReg();
-                return;
-            }
-            if ($scope.registered) {
-                $scope.login();
-                return;
-            }
-
-
-            if ($scope.user.password == $scope.user.conf_password) {
-                if($scope.user.organization == undefined || $scope.user.organization.length == 0){
-                    $scope.user.organization = $scope.user.name;
-                }
-
-                $scope.show();
-
-                $scope.user.location = $scope.position.coords.latitude + ',' + $scope.position.coords.longitude;
-                $scope.user.device = null;
-                $scope.user.device = $cordovaDevice.getUUID();
-
-                BlueTeam.regUser($scope.user)
-                    .then(function (d) {
-
-                        $scope.hide();
-                        //setObject
-                        $localstorage.set('user', JSON.stringify(d.service_providers));
-                        $localstorage.set('user_id', d.service_providers.id);
-
-                        $scope.basicRegDone = true;
-
-                        for(var i=0; i<$scope.user.services.length; i++){
-
-                            for(var j=0;j<$scope.serviceProviders.length;j++){
-                                if($scope.serviceProviders[j].id == $scope.user.services[i] ){
-                                    var temp = {};
-                                    temp.id = $scope.user.services[i];
-                                    temp.name = $scope.serviceProviders[j].name;
-                                    temp.pic_id = $scope.serviceProviders[j].pic_id;
-
-                                    $scope.userServices.push(temp);
-
-                                }
-                            }
-
-
-                        }
-                        console.log(JSON.stringify($scope.userServices));
-
-                        console.log(JSON.stringify(d.service_providers));
-                        d.service_providers.mobile = d.service_providers.mobile*1;
-                        d.service_providers.experience = d.service_providers.experience*1;
-
-                        $scope.user = d.service_providers;
-
-
-                        if(d.error){
-
-                            $scope.error = d.error;
-
-                        }
-
-
-                        /*$timeout(function () {
-                         $window.location.reload(true);
-                         }, 5000);
-
-
-                         $state.go('tab.service-list');*/
-
-                    });
-            }
-            else
-                $scope.pwdError = true;
-        };
     })
 
 ;
