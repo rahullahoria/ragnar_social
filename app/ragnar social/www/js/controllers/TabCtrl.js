@@ -39,7 +39,7 @@ angular.module('starter.controllers')
         if ($localstorage.get('user_id') !== undefined && $localstorage.get('user_id') !== "") {
             $scope.user = JSON.parse($localstorage.get('user'));
             $scope.user_id = $localstorage.get('user_id');
-            $scope.services = JSON.parse($localstorage.get('services'));
+
         }
 
 

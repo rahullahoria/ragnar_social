@@ -103,6 +103,7 @@ angular.module('starter.controllers')
 
                         $localstorage.set('user', JSON.stringify(d.user));
                         $localstorage.set('user_id', d.user.id);
+                        $localstorage.set('company_id', d.user.company_id);
 
                         $timeout(function () {
                             $window.location.reload(true);

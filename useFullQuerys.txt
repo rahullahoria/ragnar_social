@@ -1,0 +1,5 @@
+INSERT INTO `ragnar_social`.`posts` ( `company_id`, `user_id`, `title`, `description`, `link`, `raw_img_id`, `gen_img_id`)
+
+SELECT '2', '8','Fund Raising for Woman Entrereneur', d.quotation, 'http://blueteam.in/service/index.php?load=Financial%20Service-91', a.img_id, 0 FROM `images` as a inner  join image_keyword_mapings as b inner join quotation_keyword_mappings as c inner join quotations as d WHERE a.id = b.image_id and b.keyword_id = c.keyword_id and c.quotation_id = d.id order by rand()
+
+

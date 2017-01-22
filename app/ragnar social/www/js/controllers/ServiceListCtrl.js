@@ -26,7 +26,6 @@ angular.module('starter.controllers')
                 $scope.user = JSON.parse($localstorage.get('user'));
 
                 $scope.user_id = $localstorage.get('user_id');
-                $scope.services = JSON.parse($localstorage.get('services'));
                 $scope.campaignRequest = {};
 
 
@@ -154,8 +153,8 @@ angular.module('starter.controllers')
 
 
                 $scope.doRefresh = function() {
-                    console.log('do refresh go called');
-                    RagnarSocial.getPostsByType(1,1,$scope.type).then(function (d) {
+                    console.log('do refresh go called',$scope.user.company_id,$scope.user.id,$scope.type);
+                    RagnarSocial.getPostsByType($scope.user.company_id,$scope.user.id,$scope.type).then(function (d) {
 
                         $scope.posts = d.posts;
                         console.log(JSON.stringify($scope.posts));

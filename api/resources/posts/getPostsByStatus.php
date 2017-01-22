@@ -21,6 +21,9 @@ function getPostsByStatus($orgId, $userId, $type){
         $stmt->execute();
         $posts = $stmt->fetchAll(PDO::FETCH_OBJ);
 
+        echo $orgId. $userId. $type;
+
+        var_dump($posts);
         $db = null;
 
         echo '{"posts": ' . json_encode($posts) . '}';
