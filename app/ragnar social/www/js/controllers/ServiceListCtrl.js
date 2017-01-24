@@ -50,7 +50,7 @@ angular.module('starter.controllers')
                     $scope.post.scheduled = test;
                     $scope.post.status = "approved";
 
-                    RagnarSocial.sendPostMessage(1,1,postId,$scope.post)
+                    RagnarSocial.sendPostMessage($scope.user.company_id,$scope.user.id,postId,$scope.post)
                         .then(function (d) {
                             $scope.hide();
                             console.log(JSON.stringify(d));
@@ -88,7 +88,7 @@ angular.module('starter.controllers')
                     sendInfoPopup.then(function (res) {
                         console.log("tep", res);
                         if (res) {
-                            RagnarSocial.createPost(1,1,$scope.post)
+                            RagnarSocial.createPost($scope.user.company_id,$scope.user.id,$scope.post)
                                 .then(function (d) {
                                     $scope.hide();
                                     console.log(JSON.stringify(d));
@@ -142,7 +142,7 @@ angular.module('starter.controllers')
                     $scope.show();
 
 
-                    RagnarSocial.sendPostMessage(1,1,$scope.postId,$scope.post)
+                    RagnarSocial.sendPostMessage($scope.user.company_id,$scope.user.id,$scope.postId,$scope.post)
                         .then(function (d) {
                             $scope.hide();
                             console.log(JSON.stringify(d));
