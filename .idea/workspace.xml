@@ -4,8 +4,6 @@
     <list default="true" id="f83f584a-9846-4cac-8453-972883828bc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/posts/getPostsByStatus.php" afterPath="$PROJECT_DIR$/api/resources/posts/getPostsByStatus.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ragnar social/config.xml" afterPath="$PROJECT_DIR$/app/ragnar social/config.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/ragnar social/www/js/controllers/ServiceListCtrl.js" afterPath="$PROJECT_DIR$/app/ragnar social/www/js/controllers/ServiceListCtrl.js" />
     </list>
     <ignored path="ragnar_social.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -30,12 +28,12 @@
       <file leaf-file-name="getPostsByStatus.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/posts/getPostsByStatus.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6902655">
-              <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+            <state vertical-scroll-proportion="0.13321492">
+              <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
               <folding>
-                <marker date="1485237998698" expanded="true" signature="160:455" placeholder="SELECT * FRO... posts" />
-                <marker date="1485237998698" expanded="true" signature="160:531" placeholder="SELECT * FRO... posts" />
-                <marker date="1485237998698" expanded="true" signature="491:530" placeholder="select post_... post_tracks" />
+                <marker date="1485238311366" expanded="true" signature="160:453" placeholder="SELECT * FRO... posts" />
+                <marker date="1485238311366" expanded="true" signature="160:529" placeholder="SELECT * FRO... posts" />
+                <marker date="1485238311366" expanded="true" signature="489:528" placeholder="select post_... post_tracks" />
               </folding>
             </state>
           </provider>
@@ -624,12 +622,6 @@
       <option name="number" value="Default" />
       <updated>1482226460014</updated>
     </task>
-    <task id="LOCAL-00007" summary="added resouces">
-      <created>1482676839276</created>
-      <option name="number" value="00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1482676839276</updated>
-    </task>
     <task id="LOCAL-00008" summary="added resouces">
       <created>1482679935234</created>
       <option name="number" value="00008" />
@@ -918,7 +910,13 @@
       <option name="project" value="LOCAL" />
       <updated>1485093153948</updated>
     </task>
-    <option name="localTasksCounter" value="56" />
+    <task id="LOCAL-00056" summary="added resouces">
+      <created>1485238016969</created>
+      <option name="number" value="00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1485238016969</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -927,6 +925,7 @@
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27643505" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -934,7 +933,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1039,9 +1037,9 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1485237998698" expanded="true" signature="160:455" placeholder="SELECT * FRO... posts" />
-            <marker date="1485237998698" expanded="true" signature="160:531" placeholder="SELECT * FRO... posts" />
-            <marker date="1485237998698" expanded="true" signature="491:530" placeholder="select post_... post_tracks" />
+            <marker date="1485238311366" expanded="true" signature="160:453" placeholder="SELECT * FRO... posts" />
+            <marker date="1485238311366" expanded="true" signature="160:529" placeholder="SELECT * FRO... posts" />
+            <marker date="1485238311366" expanded="true" signature="489:528" placeholder="select post_... post_tracks" />
           </folding>
         </state>
       </provider>
@@ -1325,12 +1323,12 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/posts/getPostsByStatus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6902655">
-          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        <state vertical-scroll-proportion="0.13321492">
+          <caret line="10" column="81" selection-start-line="10" selection-start-column="81" selection-end-line="10" selection-end-column="81" />
           <folding>
-            <marker date="1485237998698" expanded="true" signature="160:455" placeholder="SELECT * FRO... posts" />
-            <marker date="1485237998698" expanded="true" signature="160:531" placeholder="SELECT * FRO... posts" />
-            <marker date="1485237998698" expanded="true" signature="491:530" placeholder="select post_... post_tracks" />
+            <marker date="1485238311366" expanded="true" signature="160:453" placeholder="SELECT * FRO... posts" />
+            <marker date="1485238311366" expanded="true" signature="160:529" placeholder="SELECT * FRO... posts" />
+            <marker date="1485238311366" expanded="true" signature="489:528" placeholder="select post_... post_tracks" />
           </folding>
         </state>
       </provider>
