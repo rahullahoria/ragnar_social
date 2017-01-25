@@ -770,7 +770,7 @@
                         <div class="single_price wow fadeInUp">
                             <h3>Standard</h3>
                             <div class="price">
-                                <h3><s>30K ₹</s></h3>
+                                <h3><s>20K ₹</s></h3>
                                 <h4>18K ₹</h4>
                                 <span>per Month</span>
                             </div>
