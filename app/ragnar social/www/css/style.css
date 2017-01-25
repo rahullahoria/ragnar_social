@@ -124,3 +124,14 @@
     height: 70px !important;
     border-radius: 50% !important;
 }
+
+.popup-head
+{
+    background-color:#ef473a;
+
+}
+
+.popup-title
+{
+    color: #fff;
+}

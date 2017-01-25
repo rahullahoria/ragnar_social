@@ -246,7 +246,7 @@
                                             </div>
                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                 <div class="panel-body">
-                                                    our desinger and devloper did alot while devloping this cerative tool. our designer inovvation and beautiful work make this tool more attractive . person belonging to this tool have alot of experince and  brillant imagination power. so all effort done by them makes a creative and clean desiging tool.
+                                                    Creating a new page on your site is like taking a really great selfie. You want the world to see it and bask in its brilliance, but you don’t want to beg for attention (or worse, pay for it). That’s why for selfies and landing pages, well-placed social media posts can make all the difference. We’ve seen a single link on Reddit drive over 20,000 visitors in one weekend and links submitted to StumbleUpon can take a page that was consistently earning a handful of visitors a day and increase that number to hundreds. Who wouldn’t want to capitalize on that?
                                                 </div>
                                             </div>
                                         </div>
@@ -261,7 +261,7 @@
                                             </div>
                                             <div id="collapseTwo" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                                    It is a long established fact that a responsive layout in today"s world is too nessassry because reader will be distracted by the readable content of a page when looking at its layout. The point of using responsive layout  is that , we dont knnow where and customer will open the page or on which device so, with responsive layout it has a more-or-less normal distribution of letters as making it look like readable Easily.
+                                                    Search engine crawlers know which pages are consistently earning traffic and which are just floating out there, forgotten and ignored. A killer content strategy for SEO is the most important part of earning top spots in search engine rankings, but driving traffic to your optimized pages will cause them to climb much faster in the search engine results pages (SERPs).
                                                 </div>
                                             </div>
                                         </div>
@@ -276,8 +276,12 @@
                                             </div>
                                             <div id="collapseThree" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                                                </div>
+                                                    <p>Part of what makes things like Twitter and Instagram marketing so cool is the interaction you get to have with your customer base — you can read their tweets and status updates to get insights into their daily lives (and maybe adjust your marketing strategy as a result). What products are they buying and why? What are they doing on the weekend? What kind of posts do they love to share, and from what websites?
+</p>
+    <p>                                               You can also use social media as a tool for connecting with complementary, non-competing businesses, thought leaders and tastemakers in your space, as well as journalists who cover your industry. Sometimes, becoming besties starts with a simple retweet.
+    </p>
+        <p>                                            Of course it doesn’t hurt to go the extra mile. When we saw that our client Astroglide was mentioned on The Celebrity Name Game by Rick Fox, we quickly jumped on the opportunity to create a gif and mention both accounts on Twitter. This resulted in interaction not just from Rick Fox, but from the Celebrity Name Game account as well!
+        </p>                                     </div>
                                             </div>
                                         </div>
                                         <!-- START SINGLE FEATURED ITEAM #4 -->
@@ -285,13 +289,27 @@
                                             <div class="panel-heading">
                                                 <h4 class="panel-title">
                                                     <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-                                                        <span class="fa fa-check-square-o"></span>Users are receptive to your messagesc
+                                                        <span class="fa fa-check-square-o"></span>Users are receptive to your messages
                                                     </a>
                                                 </h4>
                                             </div>
                                             <div id="collapseFour" class="panel-collapse collapse">
                                                 <div class="panel-body">
-                                                    It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages.
+                                                    People view Twitter and Facebook as social networks, not marketing machines. As a result, they’re less likely to see what you post as an advertisement and will be more likely to hear what you have to say. This translates to serious web traffic when you link to your site and posts that market themselves as your friends and followers share what you’ve posted.
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="panel panel-default wow fadeInLeft">
+                                            <div class="panel-heading">
+                                                <h4 class="panel-title">
+                                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
+                                                        <span class="fa fa-check-square-o"></span>Social media ads allow targeting and retargeting
+                                                    </a>
+                                                </h4>
+                                            </div>
+                                            <div id="collapseFive" class="panel-collapse collapse">
+                                                <div class="panel-body">
+                                                    One of the reasons social media is important is because of the highly customizable nature of social media ads. Facebook ads, for example, allow you to target users by things like location, education level, industry and even purchase history and the pages they’ve liked. You also have to the option to install a Facebook pixel on your site and use it to retarget the users who visit you — these people are far more likely to convert into solid leads and sales!
                                                 </div>
                                             </div>
                                         </div>
@@ -734,8 +752,12 @@
                             </div>
                             <ul class="price_features">
                                 <li>Targeted <strong>Campaning</strong></li>
-                                <li><strong>Customizable</strong> Feature</li>
-                                <li>Minimum <strong>0 clicks</strong></li>
+                                <li><strong>10 Posts</strong></li>
+                                <li><span class="fa fa-facebook-square"> Facebook <span class="fa fa-check"></li>
+                                <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
+                                <li><span class="fa fa-linkedin-square"> Linkedin <span class="fa fa-close"></li>
+                                <li><span class="fa fa-google-plus-square"> G+ <span class="fa fa-close"></li>
+                                <li>Granted Facebook likes <strong>0</strong></li>
                                 <!--<li>Email / SMS Campaning</li>
                                 <li>15 paise per SMS</li>
                                 <li>Minimum <strong>50000 SMS</strong></li>-->
@@ -754,8 +776,12 @@
                             </div>
                             <ul class="price_features">
                                 <li>Targeted <strong>Campaning</strong></li>
-                                <li><strong>Customizable</strong> Feature</li>
-                                <li>Minimum <strong>200 clicks</strong></li>
+                                <li><strong>20 Posts</strong></li>
+                                <li><span class="fa fa-facebook-square"> Facebook <span class="fa fa-check"></li>
+                                <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
+                                <li><span class="fa fa-linkedin-square"> Linkedin <span class="fa fa-check"></li>
+                                <li><span class="fa fa-google-plus-square"> G+ <span class="fa fa-check"></li>
+                                <li>Granted Facebook likes <strong>100</strong></li>
                                 <!--<li>Email / SMS Campaning</li>
                                 <li>15 paise per SMS</li>
                                 <li>Minimum <strong>30000 SMS</strong></li>-->
@@ -774,11 +800,12 @@
                             </div>
                             <ul class="price_features">
                                 <li>Targeted <strong>Campaning</strong></li>
-                                <li><strong>Customizable</strong> Feature</li>
-                                <li>Minimum <strong>500 clicks</strong></li>
-                                <li>Email / SMS Campaning</li>
-                                <li>15 paise per SMS</li>
-                                <li>Minimum <strong>20000 SMS</strong></li>
+                                <li><strong>30 Posts</strong></li>
+                                <li><span class="fa fa-facebook-square"> Facebook <span class="fa fa-check"></li>
+                                <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
+                                <li><span class="fa fa-linkedin-square"> Linkedin <span class="fa fa-check"></li>
+                                <li><span class="fa fa-google-plus-square"> G+ <span class="fa fa-check"></li>
+                                <li>Granted Facebook likes <strong>200</strong></li>
                             </ul>
                             <a href="#" class="price_btn">Select Plan</a>
                         </div>
@@ -794,11 +821,12 @@
                             </div>
                             <ul class="price_features">
                                 <li>Targeted <strong>Campaning</strong></li>
-                                <li><strong>Customizable</strong> Feature</li>
-                                <li>Minimum <strong>1000 clicks</strong></li>
-                                <li>Email / SMS Campaning</li>
-                                <li>15 paise per SMS</li>
-                                <li>Minimum <strong>10000 SMS</strong></li>
+                                <li><strong>60 Posts</strong> Feature</li>
+                                <li><span class="fa fa-facebook-square"> Facebook <span class="fa fa-check"></li>
+                                <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
+                                <li><span class="fa fa-linkedin-square"> Linkedin <span class="fa fa-check"></li>
+                                <li><span class="fa fa-google-plus-square"> G+ <span class="fa fa-check"></li>
+                                <li>Granted Facebook likes <strong>300</strong></li>
                             </ul>
                             <a href="#" class="price_btn">Select Plan</a>
                         </div>

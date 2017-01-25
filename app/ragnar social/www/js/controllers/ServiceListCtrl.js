@@ -62,7 +62,8 @@ angular.module('starter.controllers')
                 $scope.addPost = function(){
 
                     var sendInfoPopup = $ionicPopup.show({
-                        template: 'Title:<input type="text" ng-model="post.title"/><br>Description:<input type="text" ng-model="post.message"/>',
+                        template:
+                            'Title:<input type="text" ng-model="post.title"/><br>Description:<input type="text" ng-model="post.message"/>',
                         title: '<h4><b>Post Creation Request</b></h4>',
                         subTitle: '<h5> please give use following details</h5>',
                         scope: $scope,
