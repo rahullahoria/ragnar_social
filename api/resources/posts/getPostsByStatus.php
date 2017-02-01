@@ -27,7 +27,7 @@ function getPostsByStatus($orgId, $userId, $type){
         foreach($posts as $key => $value) {
             $value->title = htmlspecialchars($value->title);
 
-            $value->description = str_replace('&#39;', "//'",$value->description);
+            $value->description = str_replace('&#39;', "'",$value->description);
             $value->description = htmlspecialchars($value->description);
             if(substr_count($value->link, "blueteam")){
                 $value->link = $value->website;
