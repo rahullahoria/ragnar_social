@@ -160,8 +160,8 @@
                     <!-- FIRST SLIDE CAPTION-->
                     <div class="slider_caption">
                         <h2>Hi, We do Market research and advertising </h2>
-                        <p>we are a group of experienced designers, developers and marketing heads</p>
-                        <a href="#" class="slider_btn">Who We are</a>
+                        <p>We have group of experienced designers, developers and marketing heads</p>
+                        <a href="#" class="slider_btn">Who we Are</a>
                     </div>
                 </li>
 
@@ -174,8 +174,8 @@
                     <!-- SECOND SLIDE CAPTION-->
                     <div class="slider_caption">
                         <h2>Hi, Let's find new marketing Strategies</h2>
-                        <p>we are a group of experienced designers, developers and marketing heads</p>
-                        <a href="#" class="slider_btn">Who We are</a>
+                        <p>We have group of experienced designers, developers and marketing heads</p>
+                        <a href="#" class="slider_btn">Who we Are</a>
                     </div>
                 </li>
 
@@ -187,9 +187,9 @@
                     <img src="library/img/full-slider/full-slide1.jpg" alt="img">
                     <!-- THIRD SLIDE CAPTION-->
                     <div class="slider_caption">
-                        <h2>we'll change your Idea of Marketing</h2>
-                        <p>we are a group of experienced designers, developers and marketing heads</p>
-                        <a href="#" class="slider_btn">Who We are</a>
+                        <h2>We'll change your Idea of Marketing</h2>
+                        <p>We have group of experienced designers, developers and marketing heads</p>
+                        <a href="#" class="slider_btn">Who we Are</a>
                     </div>
                 </li>
             </ul>
@@ -198,7 +198,7 @@
                 <!-- PREV IN THE SLIDE -->
                 <a class="prev" href="/item1">
                     <span class="icon-wrap"></span>
-                    <h3><strong>Prev</strong></h3>
+                    <h3><strong>Previous</strong></h3>
                 </a>
                 <!-- NEXT IN THE SLIDE -->
                 <a class="next" href="/item3">
@@ -226,7 +226,7 @@
                         <p>Maintaining Social Profile of a company is a costly process. Brands creating real values by invest most time in improving service quality and product development. Creating and maintaining Social Profile is always become complex. As the fail to maintain it, so taking out its leverage become impossible.</p>
                         <p>Ragnar Social Comes in place when brands want to create, maintain and take leverage of social profile over social network like Facebook, Twitter, Google Plus and Linkedin.</p>
                         <p>Fruit of social profile don’t come in a day, rather it comes with continuous engagement.</p>
-                        <p><b>You Focus on important things of your business, Social profiling let Ragner to take care.</b></p>
+                        <p><b>You focus on important things of your business, Social profiling let Ragner to take care.</b></p>
                     </div>
 
                     <!-- START ABOUT CONTENT -->
@@ -246,7 +246,7 @@
                                             </div>
                                             <div id="collapseOne" class="panel-collapse collapse in">
                                                 <div class="panel-body">
-                                                    Creating a new page on your site is like taking a really great selfie. You want the world to see it and bask in its brilliance, but you don’t want to beg for attention (or worse, pay for it). That’s why for selfies and landing pages, well-placed social media posts can make all the difference. We’ve seen a single link on Reddit drive over 20,000 visitors in one weekend and links submitted to StumbleUpon can take a page that was consistently earning a handful of visitors a day and increase that number to hundreds. Who wouldn’t want to capitalize on that?
+                                                    Creating a new page of your site is like taking a really great selfie. You want the world to see it and bask in its brilliance, but you don’t want to beg for attention (or worse, pay for it). That’s why for selfies and landing pages, well-placed social media posts can make all the difference. We’ve seen a single link on Reddit drive over 20,000 visitors in one weekend and links submitted to StumbleUpon can take a page that was consistently earning a handful of visitors a day and increase that number to hundreds. Who wouldn’t want to capitalize on that?
                                                 </div>
                                             </div>
                                         </div>
@@ -350,54 +350,9 @@
             </div>
         </div>
     </div>
-    <!-- BEGAIN SKILLS  -->
-   <?php /* <div class="row">
-        <div class="col-lg-12 col-md-12">
-            <div class="skills_area">
-                <div class="slider_overlay"></div>
-                <div class="container">
-                    <div class="skills">
-                        <div class="heading">
-                            <h3 class="wow fadeInDown">Our Skills</h3>
-                        </div>
-                        <!-- START SINGLE SKILL-->
-                        <div class="col-lg-3 col-md-3 col-sm-3">
-                            <div class="single_skill wow fadeInUp">
-                                <div id="myStat" data-dimension="150" data-text="85%" data-info="Design" data-width="10" data-fontsize="25" data-percent="85" data-fgcolor="#999" data-bgcolor="#fff"  ><span class="fa fa-task"></span></div>
-                                <span class="fa fa-task"></span><h4>Design</h4>
-                            </div>
-                        </div>
-                        <!-- START SINGLE SKILL-->
-                        <div class="col-lg-3 col-md-3 col-sm-3">
-                            <div class="single_skill wow fadeInUp">
-                                <div id="myStathalf2" data-dimension="150" data-text="90%" data-info="" data-width="10" data-fontsize="25" data-percent="90" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="<span class='fa fa-task'></span>"></div>
-                                <h4>HTML/CSS</h4>
-                            </div>
-                        </div>
-                        <!-- START SINGLE SKILL-->
-                        <div class="col-lg-3 col-md-3 col-sm-3">
-                            <div class="single_skill wow fadeInUp">
-                                <div id="myStat2" data-dimension="150" data-text="65%" data-info="" data-width="10" data-fontsize="25" data-percent="65" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                                <h4>jQuery</h4>
-                            </div>
-                        </div>
-                        <!-- START SINGLE SKILL-->
-                        <div class="col-lg-3 col-md-3 col-sm-3">
-                            <div class="single_skill wow fadeInUp">
-                                <div id="myStat3" data-dimension="150" data-text="75%" data-info="" data-width="10" data-fontsize="25" data-percent="75" data-fgcolor="#999" data-bgcolor="#fff"  data-icon="fa-task"></div>
-                                <h4>WordPress</h4>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> */ ?>
-    <!-- END SKILLS  -->
+  
 </section>
-<!--=========== END ABOUT SECTION ================-->
 
-<!--=========== BEGIN SERVICE SECTION ================-->
 <section id="service">
     <div class="container">
         <div class="row">
@@ -405,7 +360,8 @@
                 <!-- BEGAIN SERVICE HEADING -->
                 <div class="heading">
                     <h2 class="wow fadeInLeftBig">Our Services</h2>
-                    <p> RAGNAR helps you  to improve your company’s performance. We deliver real business results through a people-centered approach to technology and providing the right way according to todays needs.we provide numerous service like email campaning, sms campaning , location tracking , area filtring , person filtering.</p>
+                    <p> RAGNAR helps you  to improve your company’s performance. We deliver real business results through a people-centered approach to technology and providing the right way according to todays needs.we provide numerous service like email 
+campaigning, sms campaigning , location tracking , area filtring , person filtering.</p>
                 </div>
             </div>
         </div>
@@ -441,39 +397,50 @@
                                     <span class="fa fa-eraser service_icon"></span>
                                 </div>
                                 <h3 class="service_title">Targeted SMS Marketing</h3>
-                                <p>We Choose vicely who need your product and service.</p>
+                                <p>We choose vicely who need your product and service.</p>
+                            </div>
+                        </div>
+
+     <div class="container">
+        <div class="row">
+            <div class="col-lg-12 col-md-12">
+                <!-- BEGAIN SERVICE  -->
+                <div class="service_area">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-sm-6">
+                            <!-- BEGAIN SINGLE SERVICE -->
+                            <div class="single_service wow fadeInLeft">
+                                <div class="service_iconarea">
+                                    <span class="fa fa-line-chart service_icon"></span>
+                                </div>
+                                <h3 class="service_title"> Internet marketing</h3>
+                                   <p>We council your needs.</p>
+
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <!-- BEGAIN SINGLE SERVICE -->
                             <div class="single_service wow fadeInRight">
                                 <div class="service_iconarea">
-                                    <span class="fa fa-paper-plane service_icon"></span>
+                                    <span class="fa fa-suitcase service_icon"></span>
                                 </div>
-                                <h3 class="service_title">SEO,SMM and Internet marketing</h3>
-                                <p>We council your needs.</p>
+                             <h3 class="service_title">Email Marketing</h3>
+                                <p>Email marketing is directly marketing a commercial message to a group of people using email.</p>
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6">
                             <!-- BEGAIN SINGLE SERVICE -->
                             <div class="single_service wow fadeInLeft">
                                 <div class="service_iconarea">
-                                    <span class="fa fa-envelope-o service_icon"></span>
+                                    <span class="fa fa-eraser service_icon"></span>
                                 </div>
-                                <h3 class="service_title">Email Marketing</h3>
-                                <p>Email marketing is directly marketing a commercial message to a group of people using email.</p>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-4 col-sm-6">
-                            <!-- BEGAIN SINGLE SERVICE -->
-                            <div class="single_service wow fadeInRight">
-                                <div class="service_iconarea">
-                                    <span class="fa fa-support service_icon"></span>
-                                </div>
-                                <h3 class="service_title">Premium Customer SUpport</h3>
+                                <h3 class="service_title"> Customer Support</h3>
                                 <p>Search our Knowledge base and Community for information from our team of product experts and powerful Act! .</p>
                             </div>
                         </div>
+
+
+                         
                     </div>
                 </div>
             </div>
@@ -735,7 +702,7 @@
             <!-- START ABOUT HEADING -->
             <div class="heading">
                 <h2 class="wow fadeInLeftBig">Our Pricing</h2>
-                <p>-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------.</p>
+                
             </div>
         </div>
         <div class="row col-lg-12 col-md-12">
@@ -751,7 +718,8 @@
                                 <span>per Month</span>
                             </div>
                             <ul class="price_features">
-                                <li>Targeted <strong>Campaning</strong></li>
+                                <li>Targeted <strong>
+Campaigning</strong></li>
                                 <li><strong>10 Posts</strong></li>
                                 <li><span class="fa fa-facebook-square"> Facebook <span class="fa fa-check"></li>
                                 <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
@@ -775,7 +743,8 @@
                                 <span>per Month</span>
                             </div>
                             <ul class="price_features">
-                                <li>Targeted <strong>Campaning</strong></li>
+                                <li>Targeted <strong>
+Campaigning</strong></li>
                                 <li><strong>20 Posts</strong></li>
                                 <li><span class="fa fa-facebook-square"> Facebook <span class="fa fa-check"></li>
                                 <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
@@ -799,7 +768,8 @@
                                 <span>per Month</span>
                             </div>
                             <ul class="price_features">
-                                <li>Targeted <strong>Campaning</strong></li>
+                                <li>Targeted <strong>
+Campaigning</strong></li>
                                 <li><strong>30 Posts</strong></li>
                                 <li><span class="fa fa-facebook-square"> Facebook <span class="fa fa-check"></li>
                                 <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
@@ -820,7 +790,8 @@
                                 <span>per month</span>
                             </div>
                             <ul class="price_features">
-                                <li>Targeted <strong>Campaning</strong></li>
+                                <li>Targeted <strong>
+Campaigning</strong></li>
                                 <li><strong>60 Posts</strong> Feature</li>
                                 <li><span class="fa fa-facebook-square"> Facebook <span class="fa fa-check"></li>
                                 <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
@@ -1203,7 +1174,8 @@
                 <!-- START SUBSCRIBE HEADING -->
                 <div class="heading">
                     <h2 class="wow fadeInLeftBig">Subscribe Us</h2>
-                    <p>This is absolutely an awesome campaning engine for our viewers who would like to get our latest content updates via E-mail. If you really enjoy what we post on our website, then we really insist you to subscribe us now! yes, right now!. </p>
+                    <p>This is absolutely an awesome 
+Campaigning engine for our viewers who would like to get our latest content updates via E-mail. If you really enjoy what we post on our website, then we really insist you to subscribe us now! yes, right now!. </p>
                 </div>
                 <!-- BEGAIN SUBSCRIVE FORM -->
                 <form class="subscribe_form">
