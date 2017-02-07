@@ -5,6 +5,28 @@
  * Date: 12/20/16
  * Time: 4:15 PM
  */
+
+
+if(isset($_POST['name'])){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $mobile = $_POST['mobile'];
+
+    $headers = "MIME-Version: 1.0" . "\r\n";
+
+// More headers
+    $headers .= 'From: <no-reply@collap.com>' . "\r\n";
+//$headers .= 'Cc: myboss@example.com' . "\r\n";
+
+    $message = "My name is ".$name." mobile no. ".$mobile." and email-id ".$email."
+  				\n \n This email is sent by Bull Dog \r\n";
+// message & attachment
+
+    $to = "rahul@blueteam.in";
+    $subject = "New Demo Request";
+
+    mail($to,$subject,$message,$headers);
+}
 ?>
 
 <!DOCTYPE html>
@@ -159,12 +181,31 @@
                     <img src="library/img/full-slider/full-slide7.jpg" alt="img">
                     <!-- FIRST SLIDE CAPTION-->
                     <div class="slider_caption">
-                        <h2>Hi, We do Market research and advertising </h2>
-                        <p>We have group of experienced designers, developers and marketing heads</p>
-                        <a href="#" class="slider_btn">Who we Are</a>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bs67cBrAb2w" frameborder="0" allowfullscreen></iframe>
+                            </div>
+
+                            <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5">
+                                <h3 style="color: white">Get free Digital Marketing Stratagy</h3>
+                                <div class="contact_form">
+
+                                    <!-- FOR CONTACT FORM MESSAGE -->
+                                    <div class="slider_caption" id="form-messages"></div>
+                                <form method="post" action="#" class="affa-form-signup">
+                                    <input type="text" name="name" class="form-control" id="header_form_name" placeholder="Full Name">
+                                    <input type="text" name="email" class="form-control" id="header_form_email" onkeyup="nospaces(this)" placeholder="Email Address *">
+                                    <input type="text" name="Mobile" class="form-control" id="header_form_mobile" onkeyup="nospaces(this)"placeholder="Mobile No. *">
+                                    <input type="submit" id="signup_form_submit" class="submit_btn" onclick="signup()" name="submit" value="Get in Touch!" class="btn-medium">
+                                </form>
+
+                                    </div>
+
+                                </div>
+                        </div>
                     </div>
                 </li>
-
+<?php /*
                 <!-- THE SECOND SLIDE-->
                 <li>
                     <!-- SECOND SLIDE OVERLAY -->
@@ -192,6 +233,7 @@
                         <a href="#" class="slider_btn">Who we Are</a>
                     </div>
                 </li>
+ */?>
             </ul>
             <!-- BEGAIN SLIDER NAVIGATION -->
             <nav class="slides-navigation">
@@ -1240,6 +1282,7 @@ Campaigning engine for our viewers who would like to get our latest content upda
 
 <!-- Custom js-->
 <script src="library/js/custom.js"></script>
+<script src="library/js/validation.js"></script>
 </body>
 </html>
 
