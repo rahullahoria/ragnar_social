@@ -15,15 +15,15 @@ if(isset($_POST['name'])){
     $headers = "MIME-Version: 1.0" . "\r\n";
 
 // More headers
-    $headers .= 'From: <no-reply@collap.com>' . "\r\n";
+    $headers .= 'From: <no-reply@ragnarsocial.com>' . "\r\n";
 //$headers .= 'Cc: myboss@example.com' . "\r\n";
 
     $message = "My name is ".$name." mobile no. ".$mobile." and email-id ".$email."
-  				\n \n This email is sent by Bull Dog \r\n";
+  				\n \n This email is sent by Ragnar Social \r\n";
 // message & attachment
 
     $to = "rahul@blueteam.in";
-    $subject = "New Demo Request";
+    $subject = "New Demo Request for ragnar social";
 
     mail($to,$subject,$message,$headers);
 }
@@ -187,7 +187,7 @@ if(isset($_POST['name'])){
                             </div>
 
                             <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5">
-                                <h3 style="color: white">Get free Digital Marketing Stratagy</h3>
+                                <h3 style="color: white">Get Free Digital Marketing Stratagy</h3>
                                 <div class="contact_form">
 
                                     <!-- FOR CONTACT FORM MESSAGE -->
@@ -195,7 +195,7 @@ if(isset($_POST['name'])){
                                 <form method="post" action="#" class="affa-form-signup">
                                     <input type="text" name="name" class="form-control" id="header_form_name" placeholder="Full Name">
                                     <input type="text" name="email" class="form-control" id="header_form_email" onkeyup="nospaces(this)" placeholder="Email Address *">
-                                    <input type="text" name="Mobile" class="form-control" id="header_form_mobile" onkeyup="nospaces(this)"placeholder="Mobile No. *">
+                                    <input type="text" name="mobile" class="form-control" id="header_form_mobile" onkeyup="nospaces(this)"placeholder="Mobile No. *">
                                     <input type="submit" id="signup_form_submit" class="submit_btn" onclick="signup()" name="submit" value="Get in Touch!" class="btn-medium">
                                 </form>
 
