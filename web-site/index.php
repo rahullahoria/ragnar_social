@@ -167,8 +167,11 @@ if(isset($_POST['name'])){
     </div>
     <!-- END MENU -->
 
+    <?php /*
     <!-- BEGIN SLIDER AREA-->
     <div class="slider_area">
+
+
         <!-- BEGIN SLIDER-->
         <div id="slides">
             <ul class="slides-container">
@@ -182,11 +185,15 @@ if(isset($_POST['name'])){
                     <!-- FIRST SLIDE CAPTION-->
                     <div class="slider_caption">
                         <div class="row">
-                            <div class="col-lg-6 col-md-6">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bs67cBrAb2w" frameborder="0" allowfullscreen></iframe>
+                            <div class="col-lg-5 col-md-5 col-sm-12">
+                        <iframe width="450" height="315" src="https://www.youtube.com/embed/Bs67cBrAb2w" frameborder="0" allowfullscreen></iframe>
                             </div>
 
-                            <div class="col-lg-offset-1 col-md-offset-1 col-lg-5 col-md-5">
+
+                            <div class="col-lg-2 col-md-2 col-sm-12">
+
+                            </div>
+                                <div class="col-lg-4 col-md-4 col-sm-12">
                                 <h3 style="color: white">Get Free Digital Marketing Stratagy</h3>
                                 <div class="contact_form">
 
@@ -205,7 +212,7 @@ if(isset($_POST['name'])){
                         </div>
                     </div>
                 </li>
-<?php /*
+
                 <!-- THE SECOND SLIDE-->
                 <li>
                     <!-- SECOND SLIDE OVERLAY -->
@@ -233,7 +240,7 @@ if(isset($_POST['name'])){
                         <a href="#" class="slider_btn">Who we Are</a>
                     </div>
                 </li>
- */?>
+
             </ul>
             <!-- BEGAIN SLIDER NAVIGATION -->
             <nav class="slides-navigation">
@@ -252,10 +259,49 @@ if(isset($_POST['name'])){
         <!-- END SLIDER-->
     </div>
     <!-- END SLIDER AREA -->
+ */?>
 </header>
 <!--=========== End HEADER SECTION ================-->
 
+<section id="contactFeature">
+    <!-- SKILLS COUNTER OVERLAY -->
+    <div class="slider_overlay"></div>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <div class="row">
+        <div class="col-lg-12 col-md-12">
+            <div class="container">
+                <div class="contact_feature">
+                    <!-- BEGAIN CALL US FEATURE -->
+                    <div class="col-lg-7 col-md-7 col-sm-12">
+                        <iframe style="width: 100%;height: 350px;" src="https://www.youtube.com/embed/Bs67cBrAb2w" frameborder="0" allowfullscreen></iframe>
+                    </div>
 
+
+
+                    <div class="col-lg-5 col-md-5 col-sm-12">
+                        <h3 style="color: white">Get Free Digital Marketing Stratagy</h3>
+                        <div class="contact_form">
+
+                            <!-- FOR CONTACT FORM MESSAGE -->
+                            <div class="slider_caption" id="form-messages"></div>
+                            <form method="post" action="#" class="affa-form-signup">
+                                <input type="text" name="name" class="form-control" id="header_form_name" placeholder="Full Name">
+                                <input type="text" name="email" class="form-control" id="header_form_email" onkeyup="nospaces(this)" placeholder="Email Address *">
+                                <input type="text" name="mobile" class="form-control" id="header_form_mobile" onkeyup="nospaces(this)"placeholder="Mobile No. *">
+                                <input type="submit" id="signup_form_submit" class="submit_btn" onclick="signup()" name="submit" value="Get in Touch!" class="btn-medium">
+                            </form>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 <!--=========== BEGIN ABOUT SECTION ================-->
 <section id="about">
     <div class="container">
