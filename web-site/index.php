@@ -813,7 +813,7 @@ Campaigning</strong></li>
                                 <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
                                 <li><span class="fa fa-linkedin-square"> Linkedin <span class="fa fa-close"></li>
                                 <li><span class="fa fa-google-plus-square"> G+ <span class="fa fa-close"></li>
-                                <li>Granted Facebook likes <strong>0</strong></li>
+                                <li>Guarantee Facebook likes <strong>0</strong></li>
                                 <!--<li>Email / SMS Campaning</li>
                                 <li>15 paise per SMS</li>
                                 <li>Minimum <strong>50000 SMS</strong></li>-->
@@ -838,7 +838,7 @@ Campaigning</strong></li>
                                 <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
                                 <li><span class="fa fa-linkedin-square"> Linkedin <span class="fa fa-check"></li>
                                 <li><span class="fa fa-google-plus-square"> G+ <span class="fa fa-check"></li>
-                                <li>Granted Facebook likes <strong>100</strong></li>
+                                <li>Guarantee Facebook likes <strong>100</strong></li>
                                 <!--<li>Email / SMS Campaning</li>
                                 <li>15 paise per SMS</li>
                                 <li>Minimum <strong>30000 SMS</strong></li>-->
@@ -863,7 +863,7 @@ Campaigning</strong></li>
                                 <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
                                 <li><span class="fa fa-linkedin-square"> Linkedin <span class="fa fa-check"></li>
                                 <li><span class="fa fa-google-plus-square"> G+ <span class="fa fa-check"></li>
-                                <li>Granted Facebook likes <strong>200</strong></li>
+                                <li>Guarantee Facebook likes <strong>200</strong></li>
                             </ul>
                             <a href="#" class="price_btn">Select Plan</a>
                         </div>
@@ -885,7 +885,7 @@ Campaigning</strong></li>
                                 <li><span class="fa fa-twitter-square"> Twitter <span class="fa fa-check"></li>
                                 <li><span class="fa fa-linkedin-square"> Linkedin <span class="fa fa-check"></li>
                                 <li><span class="fa fa-google-plus-square"> G+ <span class="fa fa-check"></li>
-                                <li>Granted Facebook likes <strong>300</strong></li>
+                                <li>Guarantee Facebook likes <strong>300</strong></li>
                             </ul>
                             <a href="#" class="price_btn">Select Plan</a>
                         </div>
@@ -1228,7 +1228,7 @@ Campaigning</strong></li>
                         <div class="single_contact_feaured wow fadeInUp">
                             <i class="fa fa-envelope-o"></i>
                             <h4>Email Address</h4>
-                            <p>customercare@blueteam.in</p>
+                            <p>info@shatkonlabs.com</p>
                         </div>
                     </div>
                     <!-- BEGAIN CALL US FEATURE -->
