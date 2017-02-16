@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83f584a-9846-4cac-8453-972883828bc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web-site/.htaccess" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/web-site/.htaccess" afterPath="$PROJECT_DIR$/web-site/Tmp.htaccess" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ragnar_social.iws" />
@@ -55,11 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".htaccess" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web-site/.htaccess">
+      <file leaf-file-name="Tmp.htaccess" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web-site/Tmp.htaccess">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.0732539">
-              <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+            <state vertical-scroll-proportion="0.5911414">
+              <caret line="32" column="105" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="105" />
               <folding />
             </state>
           </provider>
@@ -383,12 +383,6 @@
       <option name="number" value="Default" />
       <updated>1482226460014</updated>
     </task>
-    <task id="LOCAL-00019" summary="added resouces">
-      <created>1484148906938</created>
-      <option name="number" value="00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1484148906938</updated>
-    </task>
     <task id="LOCAL-00020" summary="added resouces">
       <created>1484206234605</created>
       <option name="number" value="00020" />
@@ -677,7 +671,13 @@
       <option name="project" value="LOCAL" />
       <updated>1487235611155</updated>
     </task>
-    <option name="localTasksCounter" value="68" />
+    <task id="LOCAL-00068" summary="added resouces">
+      <created>1487236290609</created>
+      <option name="number" value="00068" />
+      <option name="project" value="LOCAL" />
+      <updated>1487236290609</updated>
+    </task>
+    <option name="localTasksCounter" value="69" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1093,10 +1093,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web-site/.htaccess">
+    <entry file="file://$PROJECT_DIR$/web-site/Tmp.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0732539">
-          <caret line="42" column="11" selection-start-line="42" selection-start-column="11" selection-end-line="42" selection-end-column="11" />
+        <state vertical-scroll-proportion="0.5911414">
+          <caret line="32" column="105" selection-start-line="32" selection-start-column="46" selection-end-line="32" selection-end-column="105" />
           <folding />
         </state>
       </provider>
