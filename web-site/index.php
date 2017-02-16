@@ -37,7 +37,7 @@ if(isset($_POST['name'])){
     ================================================== -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ragnar</title>
+    <title>RagnarSocial|SMM|SEO|Email Marketing|Press Release|SMS Marketing </title>
 
     <!-- Mobile Specific Metas
     ================================================== -->
@@ -154,6 +154,7 @@ if(isset($_POST['name'])){
                     <ul id="top-menu" class="nav navbar-nav navbar-right main_nav">
                         <li class="active"><a href="#">Home</a></li>
                         <li><a href="#about">About</a></li>
+                        <li><a href="http://ragnarsocial.com/blog/">Blog</a></li>
                         <li><a href="#service">Services</a></li>
                         <!--<li><a href="#works">Works</a></li>-->
                         <li><a href="#team">Team</a></li>

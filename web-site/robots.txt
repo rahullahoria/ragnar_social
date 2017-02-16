@@ -1,0 +1,4 @@
+# robots.txt for http://www.ragnarsocial.com/
+
+User-agent: *
+Disallow: /static/ # This is an infinite virtual URL space
