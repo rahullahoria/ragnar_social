@@ -95,20 +95,20 @@
       <file leaf-file-name="searchKeyword.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54901963">
-              <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.7361854">
+              <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
               <folding>
                 <element signature="e#6#167#0#PHP" expanded="true" />
                 <element signature="e#3475#3579#0#PHP" expanded="false" />
-                <marker date="1489154175848" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
-                <marker date="1489154175848" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
-                <marker date="1489154175848" expanded="true" signature="476:524" placeholder="select id fr... urls" />
-                <marker date="1489154175848" expanded="true" signature="476:529" placeholder="select id fr... urls" />
-                <marker date="1489154175848" expanded="true" signature="554:616" placeholder="update urls " />
-                <marker date="1489154175848" expanded="true" signature="554:619" placeholder="update urls " />
-                <marker date="1489154175848" expanded="true" signature="644:788" placeholder="INSERT INTO `urls`... " />
-                <marker date="1489154175848" expanded="true" signature="815:888" placeholder="update keywo... " />
-                <marker date="1489154175848" expanded="true" signature="908:974" placeholder="select * fro... urls" />
+                <marker date="1489154283420" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
+                <marker date="1489154283420" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
+                <marker date="1489154283420" expanded="true" signature="476:524" placeholder="select id fr... urls" />
+                <marker date="1489154283420" expanded="true" signature="476:529" placeholder="select id fr... urls" />
+                <marker date="1489154283420" expanded="true" signature="554:616" placeholder="update urls " />
+                <marker date="1489154283420" expanded="true" signature="554:619" placeholder="update urls " />
+                <marker date="1489154283420" expanded="true" signature="644:788" placeholder="INSERT INTO `urls`... " />
+                <marker date="1489154283420" expanded="true" signature="815:888" placeholder="update keywo... " />
+                <marker date="1489154283420" expanded="true" signature="908:974" placeholder="select * fro... urls" />
               </folding>
             </state>
           </provider>
@@ -471,12 +471,6 @@
       <option name="number" value="Default" />
       <updated>1482226460014</updated>
     </task>
-    <task id="LOCAL-00030" summary="added resouces">
-      <created>1484304146318</created>
-      <option name="number" value="00030" />
-      <option name="project" value="LOCAL" />
-      <updated>1484304146318</updated>
-    </task>
     <task id="LOCAL-00031" summary="added resouces">
       <created>1484304275802</created>
       <option name="number" value="00031" />
@@ -765,7 +759,13 @@
       <option name="project" value="LOCAL" />
       <updated>1489154088403</updated>
     </task>
-    <option name="localTasksCounter" value="79" />
+    <task id="LOCAL-00079" summary="added resouces">
+      <created>1489154187951</created>
+      <option name="number" value="00079" />
+      <option name="project" value="LOCAL" />
+      <updated>1489154187951</updated>
+    </task>
+    <option name="localTasksCounter" value="80" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1202,20 +1202,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54901963">
-          <caret line="145" column="12" selection-start-line="145" selection-start-column="12" selection-end-line="145" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.7361854">
+          <caret line="152" column="14" selection-start-line="152" selection-start-column="14" selection-end-line="152" selection-end-column="14" />
           <folding>
             <element signature="e#6#167#0#PHP" expanded="true" />
             <element signature="e#3475#3579#0#PHP" expanded="false" />
-            <marker date="1489154175848" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
-            <marker date="1489154175848" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
-            <marker date="1489154175848" expanded="true" signature="476:524" placeholder="select id fr... urls" />
-            <marker date="1489154175848" expanded="true" signature="476:529" placeholder="select id fr... urls" />
-            <marker date="1489154175848" expanded="true" signature="554:616" placeholder="update urls " />
-            <marker date="1489154175848" expanded="true" signature="554:619" placeholder="update urls " />
-            <marker date="1489154175848" expanded="true" signature="644:788" placeholder="INSERT INTO `urls`... " />
-            <marker date="1489154175848" expanded="true" signature="815:888" placeholder="update keywo... " />
-            <marker date="1489154175848" expanded="true" signature="908:974" placeholder="select * fro... urls" />
+            <marker date="1489154283420" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
+            <marker date="1489154283420" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
+            <marker date="1489154283420" expanded="true" signature="476:524" placeholder="select id fr... urls" />
+            <marker date="1489154283420" expanded="true" signature="476:529" placeholder="select id fr... urls" />
+            <marker date="1489154283420" expanded="true" signature="554:616" placeholder="update urls " />
+            <marker date="1489154283420" expanded="true" signature="554:619" placeholder="update urls " />
+            <marker date="1489154283420" expanded="true" signature="644:788" placeholder="INSERT INTO `urls`... " />
+            <marker date="1489154283420" expanded="true" signature="815:888" placeholder="update keywo... " />
+            <marker date="1489154283420" expanded="true" signature="908:974" placeholder="select * fro... urls" />
           </folding>
         </state>
       </provider>

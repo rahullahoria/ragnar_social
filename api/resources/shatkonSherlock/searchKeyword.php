@@ -133,7 +133,7 @@ function searchKeyword($keyword){
 
 function getKeywordUrls($keyword,$type,$site){
     $typeMap = array('news'=> '&tbm=nws','video'=>'&tbm=vid','google'=>'','social'=>'');
-    $urls = array();
+    $urlsR = array();
 
 
         try {
@@ -143,20 +143,21 @@ function getKeywordUrls($keyword,$type,$site){
             $URL = "https://www.google.co.in/search?q=".$keywordSr."&ie=utf-8&oe=utf-8&gws_rd=cr".$typeMap[$type];
 
             $homepage = file_get_contents($URL);
-            var_dump($homepage);die('page');
+
             $urls = explode('/url?q=',$homepage);
             for($i = 1; $i<count($urls);$i++) {
-                $urls[] = explode('&amp;', $urls[$i])[0];
+                $urlsR[] = explode('&amp;', $urls[$i])[0];
                 //echo $url . "\n";
 
             }
-            return $urls;
+            //var_dump($urlsR);die('page');
+            return $urlsR;
 
 
 
         }catch(Exception $e){
             var_dump($e);
-            return $urls;
+            return $urlsR;
 
         }
 }
