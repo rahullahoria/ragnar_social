@@ -77,7 +77,7 @@ function searchKeyword($keyword){
                         $stmt = $db->prepare($insertUrlSql);
 
 
-                        $stmt->bindParam("keyword_id", $urlObjs[0]->id);
+                        $stmt->bindParam("keyword_id", $keywordObj->id);
                         $stmt->bindParam("url", $url);
                         $stmt->bindParam("creation", date('Y-m-d H:i:s'));
 
@@ -85,7 +85,7 @@ function searchKeyword($keyword){
                         $url_id = $db->lastInsertId();
 
                         $urlObjDetail = array(
-                            "keyword_id"=>$urlObjs[0]->id,
+                            "keyword_id"=>$keywordObj->id,
                             "url"=>$url,
                             "creation"=>date('Y-m-d H:i:s'),
                             "id"=>$url_id
