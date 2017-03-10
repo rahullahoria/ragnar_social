@@ -16,14 +16,14 @@ function searchKeyword($keyword){
 
 
 
-    $checkUrl = "select id from shatkon_sherlock.urls where url = :url";
+    $checkUrl = "select * from shatkon_sherlock.urls where url = :url";
 
     $updateUrlSql = "update shatkon_sherlock.urls set count = count +1 where id =  :id";
 
     $insertUrlSql = "INSERT INTO shatkon_sherlock.`urls`(`keyword_id`, `url`, `count`, `creation`)
                           VALUES (:keyword_id, :url, 1, :creation)";
 
-    $updateKeyWords = "update shatkon_sherlock.keywords set last_searched = now() where id = :id";
+    $updateKeyWords = "update shatkon_sherlock.keywords set last_searched = :dt where id = :id";
 
     $getUrls = "select * from shatkon_sherlock.urls WHERE keyword_id = :keyword_id";
 
@@ -96,7 +96,8 @@ function searchKeyword($keyword){
                 //fetch urls meta
 
                 $stmt = $db->prepare($updateKeyWords);
-                $stmt->bindParam("id", $urlObjs[0]->id);
+                $stmt->bindParam("dt", date('Y-m-d H:i:s'));
+                $stmt->bindParam("id", $keywordObj->id);
                 $stmt->execute();
 
             }
