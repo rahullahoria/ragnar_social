@@ -40,6 +40,7 @@ function searchKeyword($keyword){
         $return = array();
 
         $keywordObjs = $stmt->fetchAll(PDO::FETCH_OBJ);
+        var_dump($keywordObjs);
 
         if(count($keywordObjs) > 0) {
 

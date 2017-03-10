@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83f584a-9846-4cac-8453-972883828bc3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/googleScraper.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/app.php" afterPath="$PROJECT_DIR$/api/app.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/index.php" afterPath="$PROJECT_DIR$/api/index.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php" afterPath="$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php" />
     </list>
     <ignored path="ragnar_social.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -98,20 +95,20 @@
       <file leaf-file-name="searchKeyword.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6802842">
-              <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.4688057">
+              <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
               <folding>
                 <element signature="e#6#167#0#PHP" expanded="true" />
-                <element signature="e#3435#3539#0#PHP" expanded="false" />
-                <marker date="1489153073060" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
-                <marker date="1489153073060" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
-                <marker date="1489153073060" expanded="true" signature="476:524" placeholder="select id fr... urls" />
-                <marker date="1489153073060" expanded="true" signature="476:529" placeholder="select id fr... urls" />
-                <marker date="1489153073060" expanded="true" signature="554:616" placeholder="update urls " />
-                <marker date="1489153073060" expanded="true" signature="554:619" placeholder="update urls " />
-                <marker date="1489153073060" expanded="true" signature="644:788" placeholder="INSERT INTO `urls`... " />
-                <marker date="1489153073060" expanded="true" signature="815:888" placeholder="update keywo... " />
-                <marker date="1489153073060" expanded="true" signature="908:974" placeholder="select * fro... urls" />
+                <element signature="e#3467#3571#0#PHP" expanded="false" />
+                <marker date="1489153458312" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
+                <marker date="1489153458312" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
+                <marker date="1489153458312" expanded="true" signature="476:524" placeholder="select id fr... urls" />
+                <marker date="1489153458312" expanded="true" signature="476:529" placeholder="select id fr... urls" />
+                <marker date="1489153458312" expanded="true" signature="554:616" placeholder="update urls " />
+                <marker date="1489153458312" expanded="true" signature="554:619" placeholder="update urls " />
+                <marker date="1489153458312" expanded="true" signature="644:788" placeholder="INSERT INTO `urls`... " />
+                <marker date="1489153458312" expanded="true" signature="815:888" placeholder="update keywo... " />
+                <marker date="1489153458312" expanded="true" signature="908:974" placeholder="select * fro... urls" />
               </folding>
             </state>
           </provider>
@@ -121,7 +118,7 @@
         <entry file="file://$PROJECT_DIR$/api/app.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-19.458334">
-              <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+              <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -224,9 +221,9 @@
         <option value="$PROJECT_DIR$/web-site/index.php" />
         <option value="$PROJECT_DIR$/web-site/leads/index.php" />
         <option value="$PROJECT_DIR$/scripts/googleScraper.php" />
-        <option value="$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php" />
         <option value="$PROJECT_DIR$/api/app.php" />
         <option value="$PROJECT_DIR$/api/index.php" />
+        <option value="$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php" />
       </list>
     </option>
   </component>
@@ -473,12 +470,6 @@
       <created>1482226460014</created>
       <option name="number" value="Default" />
       <updated>1482226460014</updated>
-    </task>
-    <task id="LOCAL-00022" summary="added resouces">
-      <created>1484299311113</created>
-      <option name="number" value="00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1484299311113</updated>
     </task>
     <task id="LOCAL-00023" summary="added resouces">
       <created>1484299433777</created>
@@ -768,7 +759,13 @@
       <option name="project" value="LOCAL" />
       <updated>1487260402332</updated>
     </task>
-    <option name="localTasksCounter" value="71" />
+    <task id="LOCAL-00071" summary="added resouces">
+      <created>1489153322214</created>
+      <option name="number" value="00071" />
+      <option name="project" value="LOCAL" />
+      <updated>1489153322214</updated>
+    </task>
+    <option name="localTasksCounter" value="72" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -777,6 +774,7 @@
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3871212" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32930514" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861635" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -784,7 +782,6 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3254717" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1187,14 +1184,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-19.458334">
-          <caret line="38" column="35" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-16.333334">
@@ -1203,22 +1192,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-19.458334">
+          <caret line="38" column="12" selection-start-line="38" selection-start-column="12" selection-end-line="38" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6802842">
-          <caret line="59" column="26" selection-start-line="59" selection-start-column="26" selection-end-line="59" selection-end-column="26" />
+        <state vertical-scroll-proportion="0.4688057">
+          <caret line="42" column="31" selection-start-line="42" selection-start-column="31" selection-end-line="42" selection-end-column="31" />
           <folding>
             <element signature="e#6#167#0#PHP" expanded="true" />
-            <element signature="e#3435#3539#0#PHP" expanded="false" />
-            <marker date="1489153073060" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
-            <marker date="1489153073060" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
-            <marker date="1489153073060" expanded="true" signature="476:524" placeholder="select id fr... urls" />
-            <marker date="1489153073060" expanded="true" signature="476:529" placeholder="select id fr... urls" />
-            <marker date="1489153073060" expanded="true" signature="554:616" placeholder="update urls " />
-            <marker date="1489153073060" expanded="true" signature="554:619" placeholder="update urls " />
-            <marker date="1489153073060" expanded="true" signature="644:788" placeholder="INSERT INTO `urls`... " />
-            <marker date="1489153073060" expanded="true" signature="815:888" placeholder="update keywo... " />
-            <marker date="1489153073060" expanded="true" signature="908:974" placeholder="select * fro... urls" />
+            <element signature="e#3467#3571#0#PHP" expanded="false" />
+            <marker date="1489153458312" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
+            <marker date="1489153458312" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
+            <marker date="1489153458312" expanded="true" signature="476:524" placeholder="select id fr... urls" />
+            <marker date="1489153458312" expanded="true" signature="476:529" placeholder="select id fr... urls" />
+            <marker date="1489153458312" expanded="true" signature="554:616" placeholder="update urls " />
+            <marker date="1489153458312" expanded="true" signature="554:619" placeholder="update urls " />
+            <marker date="1489153458312" expanded="true" signature="644:788" placeholder="INSERT INTO `urls`... " />
+            <marker date="1489153458312" expanded="true" signature="815:888" placeholder="update keywo... " />
+            <marker date="1489153458312" expanded="true" signature="908:974" placeholder="select * fro... urls" />
           </folding>
         </state>
       </provider>
