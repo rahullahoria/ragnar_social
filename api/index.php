@@ -6,6 +6,7 @@ include 'db.php';
 require 'Slim/Slim.php';
 require_once 'lib/extractKeywords.php';
 require_once 'lib/getOS_Brow.php';
+require_once "includes/sms.php";
 
 
 //pages resource

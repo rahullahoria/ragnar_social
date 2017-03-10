@@ -20,8 +20,8 @@ function searchKeyword($keyword){
 
     $updateUrlSql = "update shatkon_sherlock.urls set count = count +1 where id =  :id";
 
-    $insertUrlSql = "INSERT INTO shatkon_sherlock.`urls`(`keyword_id`, `url`, `count`, `creation`)
-                          VALUES (:keyword_id, :url, 1, :creation)";
+    $insertUrlSql = "INSERT INTO shatkon_sherlock.`urls`(`keyword_id`, `url`,title,description,img, `count`, `creation`)
+                          VALUES (:keyword_id, :url,:title,:description,:img, 1, :creation)";
 
     $updateKeyWords = "update shatkon_sherlock.keywords set last_searched = :dt where id = :id";
 
@@ -72,11 +72,15 @@ function searchKeyword($keyword){
 
 
                     }else{
+                        $meta = json_decode(httpGet('https://api.urlmeta.org/?url='.$url));
                         $stmt = $db->prepare($insertUrlSql);
 
-
+                        //,title,description,img
                         $stmt->bindParam("keyword_id", $keywordObj->id);
                         $stmt->bindParam("url", $url);
+                        $stmt->bindParam("title", $meta->meta->title);
+                        $stmt->bindParam("description", $meta->meta->description);
+                        $stmt->bindParam("img", $meta->meta->image);
                         $stmt->bindParam("creation", date('Y-m-d H:i:s'));
 
                         $stmt->execute();
@@ -85,6 +89,9 @@ function searchKeyword($keyword){
                         $urlObjDetail = array(
                             "keyword_id"=>$keywordObj->id,
                             "url"=>$url,
+                            "title"=>$meta->meta->title,
+                            "description"=>$meta->meta->description,
+                            "img"=>$meta->meta->image,
                             "creation"=>date('Y-m-d H:i:s'),
                             "id"=>$url_id
                         );

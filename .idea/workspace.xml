@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f83f584a-9846-4cac-8453-972883828bc3" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/includes/error.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/includes/getOS_Brow.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/includes/getRandonString.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/includes/invoice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/includes/sms.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/api/includes/writeLog.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/index.php" afterPath="$PROJECT_DIR$/api/index.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php" afterPath="$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php" />
     </list>
     <ignored path="ragnar_social.iws" />
@@ -32,29 +39,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web-site/index.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="279" column="156" selection-start-line="279" selection-start-column="24" selection-end-line="279" selection-end-column="156" />
-              <folding>
-                <element signature="e#6#94#0#PHP" expanded="true" />
-                <element signature="e#51745#60140#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="newsSearch.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/newsSearch.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="googleScraper.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/scripts/googleScraper.php">
           <provider selected="true" editor-type-id="text-editor">
@@ -79,37 +63,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="alexaRankingUpdate.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/alexaRankingUpdate.php">
+      <file leaf-file-name="searchKeyword.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="43" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.78966135">
+              <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
               <folding>
-                <marker date="1484307077992" expanded="true" signature="349:631" placeholder="SELECT a.nam... domains" />
-                <marker date="1484307077992" expanded="true" signature="1272:1444" placeholder="INSERT INTO `domain_dynamic_details`... " />
+                <element signature="e#6#167#0#PHP" expanded="true" />
+                <element signature="e#3969#4073#0#PHP" expanded="false" />
+                <marker date="1489158855221" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
+                <marker date="1489158855221" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
+                <marker date="1489158855221" expanded="true" signature="476:523" placeholder="select id fr... urls" />
+                <marker date="1489158855221" expanded="true" signature="476:528" placeholder="select id fr... urls" />
+                <marker date="1489158855221" expanded="true" signature="553:615" placeholder="update urls " />
+                <marker date="1489158855221" expanded="true" signature="553:618" placeholder="update urls " />
+                <marker date="1489158855221" expanded="true" signature="643:834" placeholder="INSERT INTO `urls`... " />
+                <marker date="1489158855221" expanded="true" signature="861:932" placeholder="update keywo... " />
+                <marker date="1489158855221" expanded="true" signature="952:1018" placeholder="select * fro... urls" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="searchKeyword.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php">
+      <file leaf-file-name="getOS_Brow.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/lib/getOS_Brow.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.78966135">
-              <caret line="99" column="54" selection-start-line="99" selection-start-column="54" selection-end-line="99" selection-end-column="54" />
-              <folding>
-                <element signature="e#6#167#0#PHP" expanded="true" />
-                <element signature="e#3378#3482#0#PHP" expanded="false" />
-                <marker date="1489155618884" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
-                <marker date="1489155618884" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
-                <marker date="1489155618884" expanded="true" signature="476:523" placeholder="select id fr... urls" />
-                <marker date="1489155618884" expanded="true" signature="476:528" placeholder="select id fr... urls" />
-                <marker date="1489155618884" expanded="true" signature="553:615" placeholder="update urls " />
-                <marker date="1489155618884" expanded="true" signature="553:618" placeholder="update urls " />
-                <marker date="1489155618884" expanded="true" signature="643:787" placeholder="INSERT INTO `urls`... " />
-                <marker date="1489155618884" expanded="true" signature="814:885" placeholder="update keywo... " />
-                <marker date="1489155618884" expanded="true" signature="905:971" placeholder="select * fro... urls" />
-              </folding>
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="extractKeywords.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/lib/extractKeywords.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.75">
+              <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="sms.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/includes/sms.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-12.125">
+              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="writeLog.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/api/includes/writeLog.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-0.0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -127,8 +138,8 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/api/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.333334">
-              <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+            <state vertical-scroll-proportion="-5.0">
+              <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -140,18 +151,6 @@
             <state vertical-scroll-proportion="-2.5">
               <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="41" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getPost.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/api/resources/posts/getPost.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-11.875">
-              <caret line="24" column="8" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="49" />
-              <folding>
-                <marker date="1484206223424" expanded="true" signature="153:486" placeholder="SELECT a.`ti... posts" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -411,6 +410,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ragnar_social" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ragnar_social" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="api" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="includes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scratches" />
@@ -424,6 +441,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api" />
       <recent name="$PROJECT_DIR$/web-site" />
       <recent name="$PROJECT_DIR$/web-site/library/js" />
       <recent name="$PROJECT_DIR$/web-site/library/img" />
@@ -470,12 +488,6 @@
       <created>1482226460014</created>
       <option name="number" value="Default" />
       <updated>1482226460014</updated>
-    </task>
-    <task id="LOCAL-00035" summary="added resouces">
-      <created>1484307022450</created>
-      <option name="number" value="00035" />
-      <option name="project" value="LOCAL" />
-      <updated>1484307022450</updated>
     </task>
     <task id="LOCAL-00036" summary="added resouces">
       <created>1484307090585</created>
@@ -765,7 +777,13 @@
       <option name="project" value="LOCAL" />
       <updated>1489154840898</updated>
     </task>
-    <option name="localTasksCounter" value="84" />
+    <task id="LOCAL-00084" summary="added resouces">
+      <created>1489155630345</created>
+      <option name="number" value="00084" />
+      <option name="project" value="LOCAL" />
+      <updated>1489155630345</updated>
+    </task>
+    <option name="localTasksCounter" value="85" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -814,27 +832,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/ragnar social/www/js/controllers/MapCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/resources/posts/getPublishedPost.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="21" selection-start-line="10" selection-start-column="21" selection-end-line="10" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/resources/access/insertWebPageAccessDetails.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/posts/updatePostStatus.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -867,13 +864,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-3.75">
           <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/api/lib/extractKeywords.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.5416667">
-          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
         </state>
       </provider>
     </entry>
@@ -1184,14 +1174,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.333334">
-          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/app.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-19.458334">
@@ -1200,22 +1182,62 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/lib/getOS_Brow.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/lib/extractKeywords.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.75">
+          <caret line="11" column="45" selection-start-line="11" selection-start-column="45" selection-end-line="11" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/includes/writeLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/includes/sms.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.125">
+          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/api/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.0">
+          <caret line="8" column="30" selection-start-line="8" selection-start-column="30" selection-end-line="8" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/shatkonSherlock/searchKeyword.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.78966135">
-          <caret line="99" column="54" selection-start-line="99" selection-start-column="54" selection-end-line="99" selection-end-column="54" />
+          <caret line="93" column="53" selection-start-line="93" selection-start-column="53" selection-end-line="93" selection-end-column="53" />
           <folding>
             <element signature="e#6#167#0#PHP" expanded="true" />
-            <element signature="e#3378#3482#0#PHP" expanded="false" />
-            <marker date="1489155618884" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
-            <marker date="1489155618884" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
-            <marker date="1489155618884" expanded="true" signature="476:523" placeholder="select id fr... urls" />
-            <marker date="1489155618884" expanded="true" signature="476:528" placeholder="select id fr... urls" />
-            <marker date="1489155618884" expanded="true" signature="553:615" placeholder="update urls " />
-            <marker date="1489155618884" expanded="true" signature="553:618" placeholder="update urls " />
-            <marker date="1489155618884" expanded="true" signature="643:787" placeholder="INSERT INTO `urls`... " />
-            <marker date="1489155618884" expanded="true" signature="814:885" placeholder="update keywo... " />
-            <marker date="1489155618884" expanded="true" signature="905:971" placeholder="select * fro... urls" />
+            <element signature="e#3969#4073#0#PHP" expanded="false" />
+            <marker date="1489158855221" expanded="true" signature="231:439" placeholder="Select * fro... keywords" />
+            <marker date="1489158855221" expanded="true" signature="231:453" placeholder="Select * fro... keywords" />
+            <marker date="1489158855221" expanded="true" signature="476:523" placeholder="select id fr... urls" />
+            <marker date="1489158855221" expanded="true" signature="476:528" placeholder="select id fr... urls" />
+            <marker date="1489158855221" expanded="true" signature="553:615" placeholder="update urls " />
+            <marker date="1489158855221" expanded="true" signature="553:618" placeholder="update urls " />
+            <marker date="1489158855221" expanded="true" signature="643:834" placeholder="INSERT INTO `urls`... " />
+            <marker date="1489158855221" expanded="true" signature="861:932" placeholder="update keywo... " />
+            <marker date="1489158855221" expanded="true" signature="952:1018" placeholder="select * fro... urls" />
           </folding>
         </state>
       </provider>
