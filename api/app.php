@@ -36,6 +36,7 @@ $app->get('/domains','get');
 $app->post('/domains','insert');
 
 $app->get('/keywords','getKeywords');
+$app->get('/search_keyword/:keyword','searchKeyword');
 /* Ending Routes */
 
 $app->run();
