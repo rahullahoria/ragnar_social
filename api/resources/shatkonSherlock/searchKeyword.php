@@ -155,6 +155,7 @@ function getKeywordUrls($keyword,$type,$site){
 
 
         }catch(Exception $e){
+            var_dump($e);
             return $urls;
 
         }
