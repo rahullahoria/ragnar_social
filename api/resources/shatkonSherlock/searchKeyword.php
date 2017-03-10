@@ -65,12 +65,10 @@ function searchKeyword($keyword){
 
 
                         $stmt->bindParam("id", $urlObjs[0]->id);
-                        //$stmt->bindParam("creation", date('Y-m-d H:i:s'));
-
                         $stmt->execute();
 
-                        $urlObjDetails = $stmt->fetchAll(PDO::FETCH_OBJ);
-                        $urlObjDetail = $urlObjDetails[0];
+
+                        $urlObjDetail = $urlObjs[0];
 
 
                     }else{
