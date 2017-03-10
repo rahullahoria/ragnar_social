@@ -49,7 +49,7 @@ function searchKeyword($keyword){
             if($keywordObj->last_search_before > 360){
 
                $urls = getKeywordUrls($keywordObj->keyword,$keywordObj->type,$keywordObj->site);
-                var_dump($urls);die();
+                //var_dump($urls);die();
                 foreach($urls as $url){
 
                     $stmt = $db->prepare($checkUrl);
