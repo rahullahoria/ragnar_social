@@ -141,6 +141,7 @@ function getKeywordUrls($keyword,$type,$site){
             $keywordSr = $keyword .($site?'+'.$site:'');
             str_replace(' ','+',$keywordSr);
             $URL = "https://www.google.co.in/search?q=".$keywordSr."&ie=utf-8&oe=utf-8&gws_rd=cr".$typeMap[$type];
+            var_dump($URL);
             $homepage = file_get_contents($URL);
             $urls = explode('/url?q=',$homepage);
             for($i = 1; $i<count($urls);$i++) {
