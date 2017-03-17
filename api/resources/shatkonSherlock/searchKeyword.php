@@ -12,7 +12,9 @@ function searchKeyword($keyword){
 
 
 
-    $sqlSelectKeyword = "SELECT `id`, `keyword`, `site`, `creation`, `last_updated`, `last_searched`, `status`, `type`,TIMESTAMPDIFF(MINUTE, `last_searched`, NOW()) as last_search_before FROM shatkon_sherlock.`keywords` where keyword like :keyword";
+    $sqlSelectKeyword = "SELECT
+              `id`, `keyword`, `site`, `creation`, `last_updated`, `last_searched`, `status`, `type`,TIMESTAMPDIFF(MINUTE, `last_searched`, NOW()) as last_search_before
+              FROM shatkon_sherlock.`keywords` where keyword like :keyword";
 
 
 
@@ -25,7 +27,8 @@ function searchKeyword($keyword){
 
     $updateKeyWords = "update shatkon_sherlock.keywords set last_searched = :dt where id = :id";
 
-    $getUrls = "select * from shatkon_sherlock.urls WHERE keyword_id = :keyword_id";
+    $getUrls = "select * from shatkon_sherlock.urls WHERE keyword_id = :keyword_id ORDER BY `last_updated` DESC
+LIMIT 0 , 15 ";
 
     try {
         $db = getDB();
