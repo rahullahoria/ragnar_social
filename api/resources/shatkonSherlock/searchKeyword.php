@@ -85,8 +85,11 @@ LIMIT 0 , 15 ";
                         $stmt->bindParam("description", $meta->meta->description);
                         $stmt->bindParam("img", $meta->meta->image);
                         $stmt->bindParam("creation", date('Y-m-d H:i:s'));
+                        try {
+                            $stmt->execute();
+                        }catch(Exception $e){
 
-                        $stmt->execute();
+                        }
                         $url_id = $db->lastInsertId();
 
                         $urlObjDetail = array(
