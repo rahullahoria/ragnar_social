@@ -87,20 +87,21 @@ LIMIT 0 , 15 ";
                         $stmt->bindParam("creation", date('Y-m-d H:i:s'));
                         try {
                             $stmt->execute();
+                            $url_id = $db->lastInsertId();
+
+                            $urlObjDetail = array(
+                                "keyword_id"=>$keywordObj->id,
+                                "url"=>$url,
+                                "title"=>$meta->meta->title,
+                                "description"=>$meta->meta->description,
+                                "img"=>$meta->meta->image,
+                                "creation"=>date('Y-m-d H:i:s'),
+                                "id"=>$url_id
+                            );
                         }catch(Exception $e){
 
                         }
-                        $url_id = $db->lastInsertId();
 
-                        $urlObjDetail = array(
-                            "keyword_id"=>$keywordObj->id,
-                            "url"=>$url,
-                            "title"=>$meta->meta->title,
-                            "description"=>$meta->meta->description,
-                            "img"=>$meta->meta->image,
-                            "creation"=>date('Y-m-d H:i:s'),
-                            "id"=>$url_id
-                        );
                     }
                     $return[] = $urlObjDetail;
 
