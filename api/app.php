@@ -33,6 +33,7 @@ $app->post('/access','insertWebPageAccessDetails');
 $app->post('/auth','userAuth');
 
 $app->get('/domains','get');
+$app->get('/mamta/:command','processCommand');
 $app->post('/domains','insert');
 
 $app->get('/keywords','getKeywords');
