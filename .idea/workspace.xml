@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="f83f584a-9846-4cac-8453-972883828bc3" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/api/resources/mamta/processCommand.php" afterPath="$PROJECT_DIR$/api/resources/mamta/processCommand.php" />
     </list>
     <ignored path="ragnar_social.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -132,7 +133,7 @@
         <entry file="file://$PROJECT_DIR$/api/app.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-15.958333">
-              <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
+              <caret line="35" column="26" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -142,7 +143,7 @@
         <entry file="file://$PROJECT_DIR$/api/resources/mamta/processCommand.php">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.34759358">
-              <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+              <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
               <folding>
                 <element signature="e#6#94#0#PHP" expanded="true" />
               </folding>
@@ -461,12 +462,6 @@
       <option name="number" value="Default" />
       <updated>1482226460014</updated>
     </task>
-    <task id="LOCAL-00042" summary="added resouces">
-      <created>1484989432529</created>
-      <option name="number" value="00042" />
-      <option name="project" value="LOCAL" />
-      <updated>1484989432529</updated>
-    </task>
     <task id="LOCAL-00043" summary="added resouces">
       <created>1484991876302</created>
       <option name="number" value="00043" />
@@ -755,7 +750,13 @@
       <option name="project" value="LOCAL" />
       <updated>1492282150074</updated>
     </task>
-    <option name="localTasksCounter" value="91" />
+    <task id="LOCAL-00091" summary="added resouces">
+      <created>1492282170429</created>
+      <option name="number" value="00091" />
+      <option name="project" value="LOCAL" />
+      <updated>1492282170430</updated>
+    </task>
+    <option name="localTasksCounter" value="92" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1165,14 +1166,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/api/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.958333">
-          <caret line="35" column="43" selection-start-line="35" selection-start-column="43" selection-end-line="35" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/api/includes/sms.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-12.208333">
@@ -1189,10 +1182,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/api/app.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.958333">
+          <caret line="35" column="26" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/api/resources/mamta/processCommand.php">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34759358">
-          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
           <folding>
             <element signature="e#6#94#0#PHP" expanded="true" />
           </folding>
