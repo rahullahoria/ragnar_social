@@ -11,6 +11,6 @@ function processCommand($command){
 
 $url = "https://en.wikipedia.org/w/api.php?format=json&action=query&prop=extracts&exintro=&explaintext=&titles=".$command;
 
-echo    httpGet($url);
+var_dump(httpGet($url));
 
 }
