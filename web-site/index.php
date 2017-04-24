@@ -8,6 +8,7 @@
 
 
 if(isset($_POST['name'])){
+    var_dump($_POST);die();
     $name = $_POST['name'];
     $email = $_POST['email'];
     $mobile = $_POST['mobile'];
