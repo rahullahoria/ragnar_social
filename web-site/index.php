@@ -7,8 +7,11 @@
  */
 
 
-if(isset($_POST['name'])){
-    var_dump($_POST);die();
+if(isset($_POST['name'])
+    && $_POST['g-recaptcha-response'] != ""
+    && $_POST['mobile'] != ""
+    && $_POST['email'] != ""){
+    //var_dump($_POST);die();
     $name = $_POST['name'];
     $email = $_POST['email'];
     $mobile = $_POST['mobile'];
